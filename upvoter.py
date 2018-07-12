@@ -31,12 +31,14 @@ class Upvotebot():
 
         print('Running photobot \nConnected to: {}'.format(self.nodes[0]))
 
+    # set block times
     def set_times(self, datetime_object):
         self.day = datetime_object.day
         self.hour = datetime_object.hour
 
         print('Block times set')
 
+    # process block time
     def time_handler(self, datetime_object):
         if not self.day and not self.hour:
             self.set_times(datetime_object)
@@ -44,18 +46,22 @@ class Upvotebot():
         day = datetime_object.day
         hour = datetime_object.hour
 
+        # clear memory for a new day
         if day is not self.day:
             print("\nNew day: cleared memory\n")
 
             self.queue.reset()
             self.day = day
 
+        # reload the upvote_list every hour
         if hour is not self.hour:
             print("\nNew hour: reloaded upvote list\n")
 
             self.upvote_list = json.load(open('upvote_list.json'))
             self.hour = hour
 
+    # check if the operation is a post and not a comment, also check
+    # if the author is in the upvote list.
     def process_operation(self, operation, timestamp):
         parent_author = operation['operations'][0][1]['parent_author']
 
@@ -67,6 +73,7 @@ class Upvotebot():
             if author in self.upvote_list:
                 self.queue.add_to_queue(identifier, timestamp)
 
+    # in case one of the nodes fail switch over to the next node
     def reconfigure_node(self):
         self.node_index = (self.node_index + 1) % len(self.list)
         self.nodes = [self.list[self.node_index]]
@@ -76,12 +83,15 @@ class Upvotebot():
 
         print('New node: {}\n'.format(self.nodes))
 
+    # Stream block indefinitely, process each transaction in each block
     def run(self, block_num, upvote_age):
+        # filter command line arguments
         if block_num == 'head':
             self.block = self.blockchain.get_current_block_num()
         else:
             self.block = int(block_num)
 
+        # set and convert upvote age to seconds
         self.queue.upvote_age = upvote_age * 60
 
         while True:
@@ -89,6 +99,7 @@ class Upvotebot():
                 stream = self.b.stream_from(start_block=self.block,
                                             full_blocks=True)
                 for block in stream:
+                    # process the timestamp
                     timestamp = block['timestamp']
                     print(self.block, timestamp)
                     self.queue.process_queue(timestamp)
@@ -97,6 +108,7 @@ class Upvotebot():
 
                     self.time_handler(datetime_object)
 
+                    # go over each transaction and process comments
                     for operation in block['transactions']:
                         operation_type = operation['operations'][0][0]
 
@@ -106,6 +118,8 @@ class Upvotebot():
                     self.block += 1
 
             except Exception as e:
+                # common exception for api.steemit.com
+                # when the head block is reached
                 s = ("TypeError('an integer is"
                      " required (got type NoneType)',)")
                 if repr(e) == s:
