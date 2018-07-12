@@ -11,4 +11,8 @@
     "upvote_weight": 100,
     "upvote_limit": 1
   },
+  "utopian-io": {
+    "upvote_weight": 100,
+    "upvote_limit": 1
+  }
 }
