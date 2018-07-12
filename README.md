@@ -1,5 +1,8 @@
 # Fully automated STEEM voter
 ---
+## About
+
+The fully automated STEEM voter will automatically upvote users that are added to the list. For each user the upvote weight and the amount of upvotes per day can be set. A global delay for all upvotes is also configurable.
 
 ## Requirements
 
@@ -28,9 +31,7 @@ From source:
 git clone https://github.com/Juless89/fully-automated-steemvoter
 ```
 
-## About
 
-The fully automated STEEM voter will automatically upvote users that are added to the list. For each user the upvote weight and the amount of upvotes per day can be set. A global delay for all upvotes is also configurable.
 
 ## Usage
 
@@ -41,6 +42,8 @@ Requires 3 arguments:
 
 ```
 python upvoter.py <account> <block_number|head> <upvote_age>
+
+example: python upvoter.py steempytutorials head 30
 ```
 
 ## Upvote list
