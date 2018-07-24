@@ -1,0 +1,3550 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-07-26 13:34+0200\n"
+"PO-Revision-Date: 2016-07-26 18:25+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: controllers/wdt_admin.php:15
+msgid "Table type cannot be empty"
+msgstr "Тип таблицы не может быть пустым"
+
+#: controllers/wdt_admin.php:16 templates/settings.inc.php:614
+#: templates/settings.inc.php:685
+msgid "Error!"
+msgstr "Ошибка!"
+
+#: controllers/wdt_admin.php:17
+msgid "Table input data source cannot be empty"
+msgstr "Источник данных для таблицы не может быть пустым"
+
+#: controllers/wdt_admin.php:18
+msgid "MySQL query cannot be empty"
+msgstr "MySQL запрос не может быть пустым"
+
+#: controllers/wdt_admin.php:19
+msgid "MySQL table name for front-end editing is not set"
+msgstr "Имя MySQL таблицы для редактирования не задано"
+
+#: controllers/wdt_admin.php:20
+msgid ""
+"User ID column is not set. Please choose a column which will be used to "
+"identify rows belonging to the user."
+msgstr ""
+"Колонка-идентификатор пользователя не задана. Пожалуйста, выберите колонку, "
+"которая будет использоваться для идентификации рядов, принадлежащих "
+"пользователю"
+
+#: controllers/wdt_admin.php:21
+msgid ""
+"This usually happens when the MySQL query returns an empty result or is "
+"broken. Please check the results of the query in some DB manager (e.g. "
+"PHPMyAdmin)"
+msgstr ""
+"Как правило, это происходит, если MySQL запрос вернул пустой результат, или "
+"не может быть выполнен из-за ошибки. Пожалуйста, проверьте какие результаты "
+"возвращает этот запрос в СУБД (например, PHPMyAdmin)"
+
+#: controllers/wdt_admin.php:22
+msgid ""
+"Please add at least 1 row to the table through the editor before changing "
+"the settings. wpDataTables uses the actual table data to initialize table "
+"settings, so configuration for tables with no rows cannot be modified. Click "
+"\"Go to editor\" to start entering data."
+msgstr ""
+"Пожалуйста, добавьте как минимум 1 строку в таблицу через онлайн-редактор "
+"прежде чем изменять настройки. wpDataTables использует возвращаемые данные "
+"для того, чтобы инициализировать настройки, поэтому таблицы, в которых нет "
+"строк, не могут быть отредактированы. Пожалуйста, перейдите к редактору, "
+"чтобы ввести данные."
+
+#: controllers/wdt_admin.php:23
+msgid "wpDataTables backend error: "
+msgstr "Серверная ошибка wpDataTables: "
+
+#: controllers/wdt_admin.php:24
+msgid "Table saved successfully!"
+msgstr "Таблица успешно сохранена!"
+
+#: controllers/wdt_admin.php:25 templates/settings.inc.php:620
+#: templates/settings.inc.php:683
+msgid "Success!"
+msgstr "Выполнено!"
+
+#: controllers/wdt_admin.php:26
+msgid ""
+"This error is usually occuring because you are trying to load file which is "
+"too large. Please try another datasource, use a smaller file."
+msgstr ""
+"Как правило, эта ошибка происходит в том случае, если файл слишком велик. "
+"Пожалуйста, попробуйте использовать другой источник данных, или файл "
+"меньшего размера."
+
+#: controllers/wdt_admin.php:27
+msgid "ID column for front-end editing feature is not set"
+msgstr "ID колонка для онлайн-редактирования не установлена."
+
+#: controllers/wdt_admin.php:28
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: controllers/wdt_admin.php:29
+msgid "Are you sure? You will lose unsaved changes!"
+msgstr "Вы уверены? Вы потеряете все несохраненые изменения"
+
+#: controllers/wdt_admin.php:30
+msgid "Use in wpDataTable"
+msgstr "Использовать в таблице wpDataTable"
+
+#: controllers/wdt_admin.php:31
+msgid "Select Excel or CSV file"
+msgstr "Выберите Excel или CSV файл"
+
+#: controllers/wdt_admin.php:32
+msgid ""
+"Complicated queries (with WHERE clause, conditions, or with JOINs) are not "
+"supported together with server-side processing. Please store the query in a "
+"MySQL view and then create a wpDataTable based on the view."
+msgstr ""
+"Сложные запросы (с использование WHERE, JOIN, IF, и др.) не поддерживаются в "
+"комбинации с серверной обработкой данных. Пожалуйста, сохраните этот запрос "
+"в MySQL представлении (view), и создайте таблицу wpDataTable на основе "
+"представления."
+
+#: controllers/wdt_admin.php:33 templates/edit_table.inc.php:207
+msgid "Please choose an ID column for editing..."
+msgstr "Пожалуйста, выберите уникальную ID-колонку для редактирования…"
+
+#: controllers/wdt_admin.php:34 templates/edit_table.inc.php:254
+msgid "Please choose a user ID column..."
+msgstr "Пожалуйста, выберите колонку, в которую записывается ID пользователя…"
+
+#: controllers/wdt_admin.php:35 templates/chart_wizard.inc.php:1040
+#: templates/editor.inc.php:138 templates/editor.inc.php:174
+#: templates/wpdatatables_table_main.inc.php:159
+msgid "Cancel"
+msgstr "Отмена"
+
+#: controllers/wdt_admin.php:36 templates/chart_wizard.inc.php:1041
+#: templates/editor.inc.php:139 templates/editor.inc.php:175
+#: templates/wpdatatables_table_main.inc.php:163
+msgid "OK"
+msgstr "ОК"
+
+#: controllers/wdt_admin.php:37 templates/edit_table.inc.php:533
+msgid "No formatting rules for this column yet."
+msgstr "Правила форматирования для этой колонки не заданы."
+
+#: controllers/wdt_admin.php:38
+msgid "Merge"
+msgstr "Совместить"
+
+#: controllers/wdt_admin.php:39
+msgid "Replace"
+msgstr "Заменить"
+
+#: controllers/wdt_admin.php:64
+msgid "Add from data source"
+msgstr "Добавить из источника данных"
+
+#: controllers/wdt_admin.php:65
+msgid "wpDataTable Constructor"
+msgstr "Конструктор таблиц"
+
+#: controllers/wdt_admin.php:66
+msgid "wpDataTables Charts"
+msgstr "Диаграммы"
+
+#: controllers/wdt_admin.php:67
+msgid "Create Chart Wizard"
+msgstr "Мастер создания диаграмм"
+
+#: controllers/wdt_admin.php:68
+msgid "Settings"
+msgstr "Настройки"
+
+#: controllers/wdt_admin.php:69
+msgid "Addons"
+msgstr "Дополнения"
+
+#: controllers/wdt_admin.php:428 source/class.constructor.php:1342
+msgid ""
+"Could not read Google spreadsheet, please check if the URL is correct and "
+"the spreadsheet is published to everyone"
+msgstr ""
+"Не удалось прочитать Google таблицу, пожалуйста, проверьте, правильно ли "
+"введен адрес, и опубликована ли таблица для всех"
+
+#: controllers/wdt_admin.php:517 controllers/wdt_admin.php:626
+#: controllers/wdt_admin.php:669 controllers/wdt_admin.php:739
+#: controllers/wdt_admin.php:812 controllers/wdt_admin.php:892
+#: controllers/wdt_admin.php:942
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У вас недостаточно прав для доступа к этой странице."
+
+#: controllers/wdt_admin.php:525
+msgid "Edit wpDataTable"
+msgstr "Редактировать таблицу wpDataTable"
+
+#: controllers/wdt_admin.php:791
+msgid "wpDataTables Chart Edit Wizard"
+msgstr "Редактирование диаграмм"
+
+#: controllers/wdt_admin.php:794
+msgid "wpDataTables Chart Create Wizard"
+msgstr "Мастер создания диаграмм"
+
+#: controllers/wdt_admin.php:913
+msgid "New column"
+msgstr "Новая колонка"
+
+#: controllers/wdt_admin.php:914
+msgid "Select an Excel or CSV file"
+msgstr "Выберите Excel или CSV файл"
+
+#: controllers/wdt_admin.php:915
+msgid "Choose file"
+msgstr "Выберите файл"
+
+#: controllers/wdt_admin.php:916
+msgid "Please upload or choose a file from Media Library!"
+msgstr ""
+"Пожалуйста, загрузите файл, или выберите уже загруженный файл в медиа "
+"библиотеке!"
+
+#: controllers/wdt_admin.php:917
+msgid ""
+"Unfortunately an SQL error was thrown when Table Constructor tried to create "
+"the table, probably the constructed query is incorrect. Please modify the "
+"query so that it would return results."
+msgstr ""
+"MySQL сервер вернул ошибку при попытке создать таблицу, возможно, созданный "
+"запрос некорректен. Пожалуйста, попробуйте изменить условия так, чтобы "
+"запрос вернул результаты."
+
+#: controllers/wdt_admin.php:918
+msgid "SQL error"
+msgstr "Ошибка на стороне MySQL"
+
+#: controllers/wdt_admin.php:919
+msgid "Error"
+msgstr "Ошибка"
+
+#: controllers/wdt_admin_ajax_actions.php:73
+msgid "Successfully connected to the MySQL server"
+msgstr "Подключение к MySQL серверу прошло успешно"
+
+#: controllers/wdt_admin_ajax_actions.php:75
+msgid "wpDataTables could not connect to MySQL server."
+msgstr "wpDataTables не удалось подключиться к MySQL серверу."
+
+#: controllers/wdt_admin_ajax_actions.php:78
+msgid "wpDataTables could not connect to MySQL server. MySQL said: "
+msgstr ""
+"wpDataTables не удалось подключиться к MySQL серверу. Сервер вернул ошибку: "
+
+#: controllers/wdt_admin_ajax_actions.php:864
+msgid "There was an error while trying to import table"
+msgstr "При попытке импорта таблицы произошла ошибка"
+
+#: controllers/wdt_admin_ajax_actions.php:868
+msgid "There was an error while trying to import table. Exception: "
+msgstr "При попытке импорта таблицы произошла ошибка. Текст ошибки: "
+
+#: controllers/wdt_admin_ajax_actions.php:990
+msgid "Wrong table type!"
+msgstr "Неверный тип таблицы!"
+
+#: controllers/wdt_ajax_actions.php:208 controllers/wdt_ajax_actions.php:248
+#: controllers/wdt_ajax_actions.php:411
+msgid "There was an error trying to update the row! Error: "
+msgstr "При попытке изменить строку произошла ошибка! Ошибка: "
+
+#: controllers/wdt_ajax_actions.php:220 controllers/wdt_ajax_actions.php:273
+#: controllers/wdt_ajax_actions.php:391
+msgid "There was an error trying to insert a new row! Error: "
+msgstr "При попытке добавления строки произошла ошибка! Текст ошибки: "
+
+#: controllers/wdt_ajax_actions.php:340
+msgid "Bad column names supplied: "
+msgstr "Заданы неверные имена колонок: "
+
+#: controllers/wdt_ajax_actions.php:342
+msgid "ID column not supplied"
+msgstr "ID-колонка не задана"
+
+#: controllers/wdt_ajax_actions.php:347
+msgid "ID column not supplied for a cell"
+msgstr "ID-колонка не задана для ячейки"
+
+#: controllers/wdt_ajax_actions.php:528 controllers/wdt_ajax_actions.php:542
+msgid "Nothing to delete."
+msgstr "Нечего удалять."
+
+#: controllers/wdt_ajax_actions.php:532 controllers/wdt_ajax_actions.php:546
+msgid "Bad request format."
+msgstr "Запрос в неверном формате."
+
+#: controllers/wdt_ajax_actions.php:556
+msgid "You don't have permission to change this table."
+msgstr "У вас недостаточно прав для редактирования этой таблицы."
+
+#: controllers/wdt_ajax_actions.php:564
+msgid "Supplied id column not exist."
+msgstr "Заданная ID-колонка не существует."
+
+#: controllers/wdt_ajax_actions.php:589 controllers/wdt_ajax_actions.php:605
+msgid "There was an error trying to delete row! Error: "
+msgstr "Ошибка при попытке удаления ряда! Текст ошибки: "
+
+#: controllers/wdt_functions.php:363 controllers/wdt_functions.php:384
+msgid "wpDataTable with provided ID not found!"
+msgstr "Таблица wpDataTable с заданным ID не найдена!"
+
+#: controllers/wdt_functions.php:657
+msgid "Choose a table"
+msgstr "Выберите таблицу"
+
+#: controllers/wdt_functions.php:692
+msgid "Interactive Responsive Table"
+msgstr "Интерактивные адаптивные таблицы"
+
+#: controllers/wdt_functions.php:693 controllers/wdt_functions.php:753
+msgid "Content"
+msgstr "Содержимое"
+
+#: controllers/wdt_functions.php:699
+msgid "wpDataTable"
+msgstr "wpDataTable таблица"
+
+#: controllers/wdt_functions.php:703
+msgid "Choose the wpDataTable from a dropdown"
+msgstr "Выберите таблицу wpDataTable из выпадающего списка"
+
+#: controllers/wdt_functions.php:708
+msgid "Table view"
+msgstr "Отображение таблицы"
+
+#: controllers/wdt_functions.php:712
+msgid "Regular wpDataTable"
+msgstr "Стандартная wpDataTable таблица"
+
+#: controllers/wdt_functions.php:713
+msgid "Excel-like table"
+msgstr "Таблица типа Excel"
+
+#: controllers/wdt_functions.php:718
+msgid "Variable placeholder #1"
+msgstr "Переменная №1"
+
+#: controllers/wdt_functions.php:721 controllers/wdt_functions.php:729
+#: controllers/wdt_functions.php:737
+msgid "Variables"
+msgstr "Переменные"
+
+#: controllers/wdt_functions.php:722
+msgid "If you used the VAR1 placeholder you can assign a value to it here"
+msgstr "Если вы использовали переменную VAR1, вы можете здесь задать значение"
+
+#: controllers/wdt_functions.php:726
+msgid "Variable placeholder #2"
+msgstr "Переменная №2"
+
+#: controllers/wdt_functions.php:730
+msgid "If you used the VAR2 placeholder you can assign a value to it here"
+msgstr "Если вы использовали переменную VAR2, вы можете здесь задать значение"
+
+#: controllers/wdt_functions.php:734
+msgid "Variable placeholder #3"
+msgstr "Переменная №3"
+
+#: controllers/wdt_functions.php:738
+msgid "If you used the VAR3 placeholder you can assign a value to it here"
+msgstr "Если вы использовали переменную VAR3, вы можете здесь задать значение"
+
+#: controllers/wdt_functions.php:752
+msgid "Google or Highcharts chart based on a wpDataTable"
+msgstr "Диаграммы Google Charts или Highchart, основанные на таблице"
+
+#: controllers/wdt_functions.php:759
+msgid "wpDataChart"
+msgstr "Диаграмма wpDataChart"
+
+#: controllers/wdt_functions.php:763
+msgid "Choose one of wpDataCharts from the list"
+msgstr "Выберите одну из диаграмм wpDataCharts из списка"
+
+#: source/class.constructor.php:339 source/class.constructor.php:346
+msgid "There was an error when trying to create the table on MySQL side"
+msgstr "При попытке создать таблицу произошла ошибка на стороне MySQL сервера"
+
+#: source/class.constructor.php:1186
+msgid ""
+"No results found. Please check if this query is correct! Table Constructor "
+"needs a query that returns data to build a wpDataTable."
+msgstr ""
+"Результаты не найдены. Пожалуйста, проверьте, корректен ли SQL-запрос. "
+"Конструктор таблиц поддерживает только запросы, возвращающие данные, чтобы "
+"создать wpDataTable"
+
+#: source/class.constructor.php:1329 source/class.constructor.php:1424
+msgid "Empty file"
+msgstr "Пустой файл"
+
+#: source/class.constructor.php:1362
+msgid "Could not read input file!"
+msgstr "Не удалось прочитать данные из файла!"
+
+#: source/class.constructor.php:1457
+msgid "File format not supported!"
+msgstr "Формат файла не поддерживается!"
+
+#: source/class.filterwidget.php:19
+msgid "Filter"
+msgstr "Фильтр"
+
+#: source/class.filterwidget.php:42
+msgid "New title"
+msgstr "Новое название"
+
+#: source/class.filterwidget.php:46
+msgid "Title:"
+msgstr "Название:"
+
+#: source/class.wdtbrowsechartstable.php:106 source/class.wdtbrowsetable.php:77
+#: source/class.wpdatatable.php:2027
+#: templates/wpdatatables_table_main.inc.php:110
+msgid "Edit"
+msgstr "Редактировать"
+
+#: source/class.wdtbrowsechartstable.php:107 source/class.wdtbrowsetable.php:78
+#: source/class.wpdatatable.php:2032 templates/edit_table.inc.php:13
+#: templates/editor.inc.php:14
+msgid "Delete"
+msgstr "Удалить"
+
+#: source/class.wdtbrowsechartstable.php:130
+msgid "Google column chart"
+msgstr "Столбчатая диаграмма Google"
+
+#: source/class.wdtbrowsechartstable.php:133
+msgid "Google Histogram"
+msgstr "Гистограмма Google"
+
+#: source/class.wdtbrowsechartstable.php:136
+msgid "Google Bar Chart"
+msgstr "Линейчатая диаграмма Google"
+
+#: source/class.wdtbrowsechartstable.php:139
+msgid "Google Area Chart"
+msgstr "Диаграмма с областями Google"
+
+#: source/class.wdtbrowsechartstable.php:142
+msgid "Google Stepped Area Chart"
+msgstr "Диаграмма с областями и накоплением Google"
+
+#: source/class.wdtbrowsechartstable.php:145
+msgid "Google Line Chart"
+msgstr "Линейная диаграмма Google"
+
+#: source/class.wdtbrowsechartstable.php:148
+msgid "Google Pie Chart"
+msgstr "Круговая диаграмма Google"
+
+#: source/class.wdtbrowsechartstable.php:151
+msgid "Google Bubble Chart"
+msgstr "Пузырьковая диаграмма Google"
+
+#: source/class.wdtbrowsechartstable.php:154
+msgid "Google Donut Chart"
+msgstr "Кольцевая диаграмма Google"
+
+#: source/class.wdtbrowsechartstable.php:157
+msgid "Google Gauge Chart"
+msgstr "Калибровочная диаграмма Google"
+
+#: source/class.wdtbrowsechartstable.php:160
+msgid "Google Scatter Chart"
+msgstr "Точечная диаграмма Google"
+
+#: source/class.wdtbrowsechartstable.php:163
+msgid "Highcharts Line Chart"
+msgstr "Линейная диаграмма Highcharts"
+
+#: source/class.wdtbrowsechartstable.php:166
+msgid "Highcharts Basic Area Chart"
+msgstr "Обычная диаграмма с областями Highcharts"
+
+#: source/class.wdtbrowsechartstable.php:169
+msgid "Highcharts Stacked Area Chart"
+msgstr "Диаграмма с областями и накоплением Highcharts"
+
+#: source/class.wdtbrowsechartstable.php:172
+msgid "Highcharts Basic Bar Chart"
+msgstr "Обычная линейчатая диаграмма Highcharts"
+
+#: source/class.wdtbrowsechartstable.php:175
+msgid "Highcharts Stacked Bar Chart"
+msgstr "Линейчатая диаграмма с накоплением Highcharts"
+
+#: source/class.wdtbrowsechartstable.php:178
+msgid "Highcharts Basic Column Chart"
+msgstr "Обычная колоночная диаграмма Highcharts"
+
+#: source/class.wdtbrowsechartstable.php:181
+msgid "Highcharts Stacked Column Chart"
+msgstr "Колоночная диаграмма Highcharts с накоплением"
+
+#: source/class.wdtbrowsechartstable.php:184
+msgid "Highcharts Pie Chart"
+msgstr "Круговая диаграмма Highcharts"
+
+#: source/class.wdtbrowsechartstable.php:187
+msgid "Highcharts Pie With Gradient Chart"
+msgstr "Круговая диаграмма Highcharts с градиентом"
+
+#: source/class.wdtbrowsechartstable.php:190
+msgid "Highcharts Donut Chart"
+msgstr "Кольцевая диаграмма Highcharts"
+
+#: source/class.wdtbrowsechartstable.php:193
+msgid "Highcharts Scatter Plot"
+msgstr "Точечная диаграмма Highcharts"
+
+#: source/class.wdtbrowsechartstable.php:196
+msgid "Highcharts 3D Column Chart"
+msgstr "Трехмерная колоночная диаграмма Highcharts"
+
+#: source/class.wdtbrowsechartstable.php:199
+msgid "Highcharts 3D Pie Chart"
+msgstr "Трехмерная круговая диаграмма Highcharts"
+
+#: source/class.wdtbrowsechartstable.php:202
+msgid "Highcharts 3D Donut Chart"
+msgstr "Трехмерная круговая диаграмма Highcharts"
+
+#: source/class.wdtbrowsechartstable.php:205
+msgid "Highcharts Angular Gauge Chart"
+msgstr "Угловая калибровочная диаграмма Highcharts"
+
+#: source/class.wdtbrowsechartstable.php:208
+msgid "Highcharts Solid Gauge Chart"
+msgstr "Цельная калибровочная диаграмма Highcharts"
+
+#: source/class.wdtbrowsechartstable.php:237
+msgid "No wpDataCharts in the system yet."
+msgstr "Диаграмм пока не создано"
+
+#: source/class.wdtbrowsetable.php:58
+msgid "Duplicate"
+msgstr "Клонировать"
+
+#: source/class.wdtbrowsetable.php:60 templates/edit_table.inc.php:96
+msgid "Edit data"
+msgstr "Редактировать данные"
+
+#: source/class.wdtbrowsetable.php:61
+msgid "Edit in Excel-editor"
+msgstr "Excel-редактор"
+
+#: source/class.wdtbrowsetable.php:99
+msgid "No wpDataTables in the system yet."
+msgstr "Таблиц wpDataTables пока не создано"
+
+#: source/class.wdttools.php:9
+msgid "One line string"
+msgstr "Однолинейная строка"
+
+#: source/class.wdttools.php:10
+msgid "Multi-line string"
+msgstr "Многолинейная строка"
+
+#: source/class.wdttools.php:11
+msgid "One-line selectbox"
+msgstr "Список с 1 вариантом выбора"
+
+#: source/class.wdttools.php:12
+msgid "Multi-line selectbox"
+msgstr "Список с несколькими вариантами"
+
+#: source/class.wdttools.php:13
+msgid "Integer"
+msgstr "Целое число"
+
+#: source/class.wdttools.php:14
+msgid "Float"
+msgstr "Дробное число"
+
+#: source/class.wdttools.php:15
+msgid "Date"
+msgstr "Дата"
+
+#: source/class.wdttools.php:16
+msgid "URL Link"
+msgstr "URL ссылка"
+
+#: source/class.wdttools.php:17
+msgid "E-mail"
+msgstr "E-mail"
+
+#: source/class.wdttools.php:18
+msgid "Image"
+msgstr "Картинка"
+
+#: source/class.wdttools.php:19
+msgid "Attachment"
+msgstr "Вложение"
+
+#: source/class.wdttools.php:131
+msgid "Select a file to use in table"
+msgstr "Выберите файл для использования в таблице"
+
+#: source/class.wdttools.php:132
+msgid "Use selected file"
+msgstr "Использовать выбранный файл"
+
+#: source/class.wdttools.php:133
+msgid "detach"
+msgstr "Удалить"
+
+#: source/class.wdttools.php:134 templates/wpdatatables_table_main.inc.php:137
+msgid "Browse"
+msgstr "Поиск"
+
+#: source/class.wdttools.php:135
+msgid "From"
+msgstr "От"
+
+#: source/class.wdttools.php:136
+msgid "To"
+msgstr "До"
+
+#: source/class.wdttools.php:137
+msgid "Please provide a valid e-mail address for field"
+msgstr "Пожалуйста, введите корректный e-mail адрес для поля "
+
+#: source/class.wdttools.php:138
+msgid "Please provide a valid URL link for field"
+msgstr "Пожалуйста, введите корректный URL-адрес для поля "
+
+#: source/class.wdttools.php:139
+msgid " field cannot be empty!"
+msgstr " поле не может быть пустым!"
+
+#: source/class.wdttools.php:140
+msgid "Ok"
+msgstr "OK"
+
+#: source/class.wdttools.php:141
+msgid "You have entered invalid value. Press ESC to cancel."
+msgstr "Вы ввели неверное значение. Нажмите ESC для отмены"
+
+#: source/class.wdttools.php:142 source/class.wdttools.php:150
+msgid "Show _MENU_ entries"
+msgstr "Показывать _MENU_ строк"
+
+#: source/class.wdttools.php:143
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "Отображаются строки _START_ - _END_ из _TOTAL_"
+
+#: source/class.wdttools.php:144
+msgid "Search: "
+msgstr "Поиск: "
+
+#: source/class.wdttools.php:145
+msgid "No data available in table"
+msgstr "Нет данных"
+
+#: source/class.wdttools.php:146
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "Отображаются строки 0-0 из 0"
+
+#: source/class.wdttools.php:147
+msgid "(filtered from _MAX_ total entries)"
+msgstr "(отфильтровано из _MAX_ всего)"
+
+#: source/class.wdttools.php:149
+msgid ","
+msgstr ","
+
+#: source/class.wdttools.php:151
+msgid "Loading..."
+msgstr "Загрузка…"
+
+#: source/class.wdttools.php:152
+msgid "Processing..."
+msgstr "Обработка…"
+
+#: source/class.wdttools.php:153
+msgid "No matching records found"
+msgstr "Не найдены строки по заданным критериям"
+
+#: source/class.wdttools.php:155
+msgid "First"
+msgstr "Первая"
+
+#: source/class.wdttools.php:156
+msgid "Last"
+msgstr "Последняя"
+
+#: source/class.wdttools.php:157 templates/wpdatatables_table_main.inc.php:161
+msgid "Next"
+msgstr "Следующая"
+
+#: source/class.wdttools.php:158
+msgid "Previous"
+msgstr "Предыдущая"
+
+#: source/class.wdttools.php:161
+msgid ": activate to sort column ascending"
+msgstr ": нажмите для сортировки по этой колонке по возрастанию"
+
+#: source/class.wdttools.php:162
+msgid ": activate to sort column descending"
+msgstr ": нажмите для сортировки по этой колонке по убыванию"
+
+#: source/class.wpdatachart.php:1379
+msgid "Only one column can be of type String"
+msgstr "Только одна колонка может быть строкового типа"
+
+#: source/class.wpdatachart.php:1382
+msgid "You are mixing data types (several date axes and several number)"
+msgstr "Вы смешиваете типы данных (несколько дат и несколько цифровых)"
+
+#: source/class.wpdatatable.php:1196
+msgid "No data fetched! "
+msgstr "Запрос вернул пустой результат! "
+
+#: source/class.wpdatatable.php:1197
+msgid "Rendered query: "
+msgstr "Сформированный запрос: "
+
+#: source/class.wpdatatable.php:1199
+msgid " MySQL said: "
+msgstr " Ошибка, возвращенная MySQL: "
+
+#: source/class.wpdatatable.php:1586
+msgid "Unable to calculate"
+msgstr "Не удалось подсчитать"
+
+#: source/class.wpdatatable.php:1593
+msgid "Result for first 5 rows: "
+msgstr "Результат калькуляции для первых 5 строк: "
+
+#: source/class.wpdatatable.php:1595
+msgid "Unable to calculate, error message: "
+msgstr "Не удалось подсчитать, текст ошибки: "
+
+#: source/class.wpdatatable.php:1962 templates/constructor.inc.php:57
+msgid "Columns"
+msgstr "Колонки"
+
+#: source/class.wpdatatable.php:1971
+msgid "Print"
+msgstr "Печать"
+
+#: source/class.wpdatatable.php:1981
+msgid "Excel"
+msgstr "Excel"
+
+#: source/class.wpdatatable.php:1991
+msgid "CSV"
+msgstr "CSV"
+
+#: source/class.wpdatatable.php:2001
+msgid "Copy"
+msgstr "Копировать"
+
+#: source/class.wpdatatable.php:2012
+msgid "PDF"
+msgstr "PDF"
+
+#: source/class.wpdatatable.php:2023
+msgid "New"
+msgstr "Добавить"
+
+#: templates/addons.inc.php:6 templates/browse.inc.php:6
+#: templates/browse_charts.inc.php:6 templates/chart_wizard.inc.php:14
+#: templates/constructor.inc.php:12 templates/edit_table.inc.php:9
+#: templates/editor.inc.php:10 templates/settings.inc.php:10
+msgid "Please refer to"
+msgstr "Пожалуйста обратитесь к "
+
+#: templates/addons.inc.php:6 templates/browse.inc.php:6
+msgid "wpDataTables documentation"
+msgstr "документации по wpDataTables"
+
+#: templates/addons.inc.php:6 templates/browse.inc.php:6
+#: templates/browse_charts.inc.php:6 templates/chart_wizard.inc.php:14
+#: templates/settings.inc.php:10
+msgid "if you have some questions or problems with the plugin."
+msgstr "если у вас возникли вопросы или проблемы с плагином."
+
+#: templates/addons.inc.php:8
+msgid "wpDataTables Addons"
+msgstr "Дополнения к wpDataTables"
+
+#: templates/addons.inc.php:10
+msgid ""
+"While wpDataTables itself provides quite a large amount of features and "
+"unlimited customisation flexibility, you can achieve even more with our "
+"premium addons. Each addon brings you some unique extension to the core "
+"functionality. There will be more addons developed over time by wpDataTables "
+"creators and 3rd party developers, so stay tuned."
+msgstr ""
+"wpDataTables содержит очень много встроенных возможностей и функций, однако, "
+"вы можете получить еще больше при использовании премиальных дополнений. "
+"Каждое дополнение добавляет уникальное расширение к основным возможностям. "
+"Дополнения будут регулярно пополняться командой wpDataTables и сторонними "
+"разработчиками, так что не забывайте периодически проверять эту страницу!"
+
+#: templates/addons.inc.php:17
+msgid "Report Builder"
+msgstr "Report Builder"
+
+#: templates/addons.inc.php:21
+msgid ""
+"A unique tool that allows you to generate almost any Word DOCX and Excel "
+"XLSX documents filled in with actual data from your database."
+msgstr ""
+"Уникальный инструмент, позволяющий генерировать практически любой Word DOCX "
+"и Excel XLSX документ, заполняя их актуальными данными из БД"
+
+#: templates/addons.inc.php:22
+msgid "Find out more"
+msgstr "Узнать больше"
+
+#: templates/browse.inc.php:6
+msgid "Add new"
+msgstr "Добавить"
+
+#: templates/browse.inc.php:16
+msgid "New table title"
+msgstr "Новое название таблицы"
+
+#: templates/browse.inc.php:35 templates/browse.inc.php:96
+#: templates/browse_charts.inc.php:26
+msgid "Are you sure"
+msgstr "Вы уверены"
+
+#: templates/browse.inc.php:52
+msgid "Duplicate table"
+msgstr "Клонировать таблицу"
+
+#: templates/browse.inc.php:53
+msgid "copy"
+msgstr "копировать"
+
+#: templates/browse_charts.inc.php:6 templates/chart_wizard.inc.php:14
+msgid "wpDataTables documentation on Charts"
+msgstr "документации wpDataTables по диаграммам"
+
+#: templates/browse_charts.inc.php:7
+msgid "wpDataCharts"
+msgstr "Диаграммы wpDataCharts"
+
+#: templates/browse_charts.inc.php:7
+msgid "Add new chart"
+msgstr "Добавить диаграмму"
+
+#: templates/chart_wizard.inc.php:15
+msgid "wpDataTables Chart Wizard"
+msgstr "Мастер создания диаграмм"
+
+#: templates/chart_wizard.inc.php:22 templates/constructor.inc.php:17
+#: templates/edit_table.inc.php:27 templates/edit_table.inc.php:428
+#: templates/editor.inc.php:26 templates/settings.inc.php:22
+#: templates/settings.inc.php:243 templates/settings.inc.php:485
+msgid "Click to toggle"
+msgstr "Нажмите для вкл/выкл"
+
+#: templates/chart_wizard.inc.php:24
+msgid "Chart Creation Wizard"
+msgstr "Мастер создания диаграмм"
+
+#: templates/chart_wizard.inc.php:30
+msgid "Chart title & type"
+msgstr "Название и тип диаграммы"
+
+#: templates/chart_wizard.inc.php:34 templates/chart_wizard.inc.php:127
+msgid "Data source"
+msgstr "Источник данных"
+
+#: templates/chart_wizard.inc.php:38
+msgid "Data range"
+msgstr "Диапазон данных"
+
+#: templates/chart_wizard.inc.php:42
+msgid "Formatting"
+msgstr "Форматирование"
+
+#: templates/chart_wizard.inc.php:46 templates/edit_table.inc.php:32
+#: templates/edit_table.inc.php:414 templates/edit_table.inc.php:435
+#: templates/edit_table.inc.php:458
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: templates/chart_wizard.inc.php:50
+msgid "Save and get shortcode"
+msgstr "Сохранить и добавить шорткод"
+
+#: templates/chart_wizard.inc.php:57
+msgid "Chart title, rendering engine and type"
+msgstr "Название диаграммы, движок, и тип"
+
+#: templates/chart_wizard.inc.php:62
+msgid "Chart name"
+msgstr "Имя диаграммы"
+
+#: templates/chart_wizard.inc.php:63
+msgid "What is the title of the chart that you will use to identify it?"
+msgstr ""
+"Задайте диаграмме название, по которому вы сможете находить ее впоследствии."
+
+#: templates/chart_wizard.inc.php:66
+msgid "New wpDataTable Chart"
+msgstr "Новая диаграмма"
+
+#: templates/chart_wizard.inc.php:72
+msgid "Chart render engine"
+msgstr "Движок для прорисовки диаграммы"
+
+#: templates/chart_wizard.inc.php:73
+msgid "Please choose the render engine."
+msgstr "Пожалуйста, выберите движок, который будет прорисовывать диаграмму"
+
+#: templates/chart_wizard.inc.php:73
+msgid ""
+"Please note that HighCharts license is NOT included with wpDataTables and "
+"you must purchase the license separately on"
+msgstr ""
+"Пожалуйста, учтите, что лицензия Highcharts не включена в wpDataTables и "
+"если вы планируете коммерческое использование, приобретите лицензию на "
+
+#: templates/chart_wizard.inc.php:77
+msgid "Pick the render engine"
+msgstr "Выберите движок для прорисовки диаграммы"
+
+#: templates/chart_wizard.inc.php:85
+msgid "Pick a Google chart type"
+msgstr "Выберите тип диаграммы Google"
+
+#: templates/chart_wizard.inc.php:87
+msgid "Column chart"
+msgstr "Колоночная диаграмма"
+
+#: templates/chart_wizard.inc.php:88
+msgid "Histogram"
+msgstr "Гистограмма"
+
+#: templates/chart_wizard.inc.php:89
+msgid "Bar chart"
+msgstr "Линеечная диаграмма"
+
+#: templates/chart_wizard.inc.php:90
+msgid "Area chart"
+msgstr "Диаграмма с областями"
+
+#: templates/chart_wizard.inc.php:91
+msgid "Stepped area chart"
+msgstr "Диаграмма с областями и накоплением"
+
+#: templates/chart_wizard.inc.php:92 templates/chart_wizard.inc.php:105
+msgid "Line chart"
+msgstr "Линейная диаграмма"
+
+#: templates/chart_wizard.inc.php:93 templates/chart_wizard.inc.php:112
+msgid "Pie chart"
+msgstr "Круговая диаграмма"
+
+#: templates/chart_wizard.inc.php:94
+msgid "Bubble chart"
+msgstr "Пузырьковая диаграмма"
+
+#: templates/chart_wizard.inc.php:95 templates/chart_wizard.inc.php:114
+msgid "Donut chart"
+msgstr "Кольцевая диаграмма"
+
+#: templates/chart_wizard.inc.php:96
+msgid "Gauge chart"
+msgstr "Калибровочная диаграмма"
+
+#: templates/chart_wizard.inc.php:97
+msgid "Scatter chart"
+msgstr "Точечная диаграмма"
+
+#: templates/chart_wizard.inc.php:103
+msgid "Pick a Highcharts chart type"
+msgstr "Выберите тип диаграммы Highcharts"
+
+#: templates/chart_wizard.inc.php:106
+msgid "Basic area chart"
+msgstr "Обычная диаграмма с областями"
+
+#: templates/chart_wizard.inc.php:107
+msgid "Stacked area chart"
+msgstr "Диаграмма с областями и накоплением"
+
+#: templates/chart_wizard.inc.php:108
+msgid "Basic bar chart"
+msgstr "Обычная линеечная диаграмма"
+
+#: templates/chart_wizard.inc.php:109
+msgid "Stacked bar chart"
+msgstr "Линеечная диаграмма с накоплением"
+
+#: templates/chart_wizard.inc.php:110
+msgid "Basic column chart"
+msgstr "Обычная колоночная диаграмма"
+
+#: templates/chart_wizard.inc.php:111
+msgid "Stacked column chart"
+msgstr "Колоночная диаграмма с накоплением"
+
+#: templates/chart_wizard.inc.php:113
+msgid "Pie with gradient chart"
+msgstr "Круговая диаграмма с градиентом"
+
+#: templates/chart_wizard.inc.php:115
+msgid "Scatter plot"
+msgstr "Точечная диаграмма"
+
+#: templates/chart_wizard.inc.php:116
+msgid "3D column chart"
+msgstr "Трехмерная колоночная диаграмма"
+
+#: templates/chart_wizard.inc.php:117
+msgid "3D pie chart"
+msgstr "Трехмерная круговая диаграмма"
+
+#: templates/chart_wizard.inc.php:118
+msgid "3D donut chart"
+msgstr "Трехмерная кольцевая диаграмма"
+
+#: templates/chart_wizard.inc.php:132
+msgid "wpDataTable Data source"
+msgstr "Таблица wpDataTable - источник данных"
+
+#: templates/chart_wizard.inc.php:133
+msgid "Please pick a wpDataTable which will be used as a data source"
+msgstr ""
+"Пожалуйста, выберите таблицу wpDataTable, которая будет использоваться как "
+"источник данных для диаграммы"
+
+#: templates/chart_wizard.inc.php:137
+msgid "Pick a wpDataTable"
+msgstr "Выберите таблицу"
+
+#: templates/chart_wizard.inc.php:153
+msgid "Column range"
+msgstr "Диапазон колонок"
+
+#: templates/chart_wizard.inc.php:156
+msgid "Columns in the data source"
+msgstr "Колонки в источнике данных"
+
+#: templates/chart_wizard.inc.php:157 templates/chart_wizard.inc.php:169
+msgid "Select"
+msgstr "Выбрать"
+
+#: templates/chart_wizard.inc.php:157 templates/chart_wizard.inc.php:169
+#: templates/constructor.inc.php:134
+msgid "all"
+msgstr "все"
+
+#: templates/chart_wizard.inc.php:157 templates/chart_wizard.inc.php:169
+msgid "none"
+msgstr "отменить"
+
+#: templates/chart_wizard.inc.php:162
+msgid "Add all"
+msgstr "Добавить все"
+
+#: templates/chart_wizard.inc.php:163
+msgid "Add"
+msgstr "Добавить"
+
+#: templates/chart_wizard.inc.php:164
+msgid "Remove"
+msgstr "Удалить"
+
+#: templates/chart_wizard.inc.php:165
+msgid "Remove all"
+msgstr "Удалить все"
+
+#: templates/chart_wizard.inc.php:168
+msgid "Columns used in the chart"
+msgstr "Колонки, задействованные в диаграмме"
+
+#: templates/chart_wizard.inc.php:170
+msgid ""
+"Please do not add more then one string (image, email, URL) column since only "
+"one can be used as a label"
+msgstr ""
+"Пожалуйста, не добавляйте более одной строковой колонки (также картинки, e-"
+"mail, URL), так как только одна строковая колонка может быть использована в "
+"диаграмме (для подписи категорйи)"
+
+#: templates/chart_wizard.inc.php:171
+msgid "Minimum count of columns for this chart type is "
+msgstr "Минимальное количество колонок для диаграммы этого типа равно "
+
+#: templates/chart_wizard.inc.php:172
+msgid "Maximum count of columns for this chart type is "
+msgstr "Максимальное количество колонок для диаграммы этого типа равно "
+
+#: templates/chart_wizard.inc.php:181
+msgid "Row range"
+msgstr "Диапазон строк"
+
+#: templates/chart_wizard.inc.php:182
+msgid ""
+"If you do not want data from all the table rows to be in the chart, you can "
+"pick the range manually. Please note that if the data set is large the range "
+"picker can load slowly or even cause an out of memory error."
+msgstr ""
+"Если вы не хотите задействовать целую таблицу в диаграмме, вы можете здесь "
+"выбрать диапазон вручную. Пожалуйста, учтите, что для крупных таблиц данная "
+"функция может работать медленно."
+
+#: templates/chart_wizard.inc.php:184
+msgid "All rows (default)"
+msgstr "Все строки (по умолчанию)"
+
+#: templates/chart_wizard.inc.php:185
+msgid "Pick range (slow on large datasets)"
+msgstr "Выбрать диапазон (медленно на крупных таблицах)"
+
+#: templates/chart_wizard.inc.php:187
+msgid "Range picker..."
+msgstr "Выбор диапазона…"
+
+#: templates/chart_wizard.inc.php:188
+msgid "Rows picked"
+msgstr "Выбранные строки"
+
+#: templates/chart_wizard.inc.php:188 templates/edit_table.inc.php:406
+msgid "All"
+msgstr "Все"
+
+#: templates/chart_wizard.inc.php:193
+msgid "Charts data filtering"
+msgstr "Фильтрация данных диаграммы"
+
+#: templates/chart_wizard.inc.php:194
+msgid "Follow table filtering"
+msgstr "Следовать за фильтрами таблицы"
+
+#: templates/chart_wizard.inc.php:195
+msgid ""
+"Set this to enabled if you would like the data disaplyed in the chart to "
+"update when you filter the table"
+msgstr ""
+"Включите данную опцию, если вы хотите, чтобы графики отображали все "
+"изменения после применения фильтров к таблице"
+
+#: templates/chart_wizard.inc.php:204
+msgid "Formatting options"
+msgstr "Опции форматирования"
+
+#: templates/chart_wizard.inc.php:210
+msgid " Chart"
+msgstr " Диаграмма"
+
+#: templates/chart_wizard.inc.php:217
+msgid "Chart width"
+msgstr "Ширина диаграммы"
+
+#: templates/chart_wizard.inc.php:218
+msgid "The width of the chart"
+msgstr "Ширина диаграммы"
+
+#: templates/chart_wizard.inc.php:222
+msgid "Responsive width"
+msgstr "Адаптивная ширина"
+
+#: templates/chart_wizard.inc.php:223
+msgid ""
+"If you tick this chart width will always adjust to 100% width of the "
+"container"
+msgstr ""
+"Если данная опция включена, диаграмма всегда будет растягиваться на 100% "
+"ширины родительского элемента"
+
+#: templates/chart_wizard.inc.php:228
+msgid "Chart height"
+msgstr "Высота диаграммы"
+
+#: templates/chart_wizard.inc.php:229
+msgid "The height of the chart"
+msgstr "Высота диаграммы"
+
+#: templates/chart_wizard.inc.php:237
+msgid "Group chart"
+msgstr "Группировать данные в диаграмме"
+
+#: templates/chart_wizard.inc.php:238
+msgid ""
+"If you tick this checkbox, the values of the rows with same label will be "
+"summed up and rendered as a single series. If you leave it unticked all rows "
+"will be rendered as separate series"
+msgstr ""
+"При включении данной опции, данные строк с одинаковыми значениями строковой "
+"колонки будут сгруппированы (просуммированы)"
+
+#: templates/chart_wizard.inc.php:242
+msgid "Enable grouping"
+msgstr "Включить группировку"
+
+#: templates/chart_wizard.inc.php:247 templates/chart_wizard.inc.php:653
+#: templates/chart_wizard.inc.php:760
+msgid "Background color"
+msgstr "Цвет общего фона"
+
+#: templates/chart_wizard.inc.php:248
+msgid "The background color for the outer chart area"
+msgstr "Цвет фона внешней области диаграммы"
+
+#: templates/chart_wizard.inc.php:258 templates/chart_wizard.inc.php:664
+#: templates/chart_wizard.inc.php:818
+msgid "Border width"
+msgstr "Ширина границы"
+
+#: templates/chart_wizard.inc.php:259
+msgid "The pixel width of the outer chart border"
+msgstr "Ширина границы внешней области диаграммы в пикселях"
+
+#: templates/chart_wizard.inc.php:267 templates/chart_wizard.inc.php:673
+#: templates/chart_wizard.inc.php:827
+msgid "Border color"
+msgstr "Цвет границы"
+
+#: templates/chart_wizard.inc.php:268
+msgid "The color of the outer chart border"
+msgstr "Цвет внешней границы диаграммы"
+
+#: templates/chart_wizard.inc.php:278 templates/chart_wizard.inc.php:684
+#: templates/chart_wizard.inc.php:839
+msgid "Border radius"
+msgstr "Радиус границы"
+
+#: templates/chart_wizard.inc.php:279
+msgid "The corner radius of the outer chart border"
+msgstr "Угловой радиус внешней границы диаграммы"
+
+#: templates/chart_wizard.inc.php:287
+msgid "Zoom type"
+msgstr "Тип зуммирования (приближения)"
+
+#: templates/chart_wizard.inc.php:288
+msgid "Decides in what dimensions the user can zoom by dragging the mouse"
+msgstr ""
+"Определяет, в каких измерениях пользователь может приближать диаграмму мышью"
+
+#: templates/chart_wizard.inc.php:301
+msgid "Panning"
+msgstr "Панорамирование"
+
+#: templates/chart_wizard.inc.php:302
+msgid ""
+"Allow panning in a chart. Best used with <b>panKey</b> to combine zooming "
+"and panning"
+msgstr ""
+"Разрешить “панорамирование” в диаграмме. Установите также клавишу для "
+"панорамного обзора, чтобы комбинировать приближение и панорамный обзор"
+
+#: templates/chart_wizard.inc.php:305
+msgid "Enable panning"
+msgstr "Включить панорамный обзор"
+
+#: templates/chart_wizard.inc.php:310
+msgid "Pan key"
+msgstr "Клавиша панорамного обзора"
+
+#: templates/chart_wizard.inc.php:311
+msgid "Allows setting a key to switch between zooming and panning"
+msgstr ""
+"Устанавливает клавишу, которая будет переключать приближение и панорамный "
+"обзор"
+
+#: templates/chart_wizard.inc.php:322
+msgid "Plot background color"
+msgstr "Цвет фона области прорисовки"
+
+#: templates/chart_wizard.inc.php:323
+msgid "The background color or gradient for the plot area"
+msgstr "Цвет фона или градиент внутренней области прорисовки диаграммы"
+
+#: templates/chart_wizard.inc.php:333
+msgid "Plot background image"
+msgstr "Фоновая картинка для области прорисовки"
+
+#: templates/chart_wizard.inc.php:334
+msgid "The URL for an image to use as the plot background"
+msgstr ""
+"URL-адрес картинки для использования в качестве фона области прорисовки"
+
+#: templates/chart_wizard.inc.php:342
+msgid "Plot border width"
+msgstr "Ширина границы области прорисовки"
+
+#: templates/chart_wizard.inc.php:343
+msgid "The pixel width of the plot area border"
+msgstr "Ширина границы области прорисовки в пикселях "
+
+#: templates/chart_wizard.inc.php:351
+msgid "Plot border color"
+msgstr "Цвет границы области прорисовки"
+
+#: templates/chart_wizard.inc.php:352
+msgid "The color of the inner chart or plot area border"
+msgstr "Цвет внутренней границы области прорисовки"
+
+#: templates/chart_wizard.inc.php:362
+msgid "Font size"
+msgstr "Размер шрифта"
+
+#: templates/chart_wizard.inc.php:363
+msgid "The default font size, in pixels, of all text in the chart"
+msgstr "Размер шрифта для всех ярлыков в диаграмме в пикселях"
+
+#: templates/chart_wizard.inc.php:371
+msgid "Font name"
+msgstr "Имя шрифта"
+
+#: templates/chart_wizard.inc.php:372
+msgid "The default font face for all text in the chart"
+msgstr "Название шрифта для использования в ярлыках в диаграмме"
+
+#: templates/chart_wizard.inc.php:389
+msgid " Series"
+msgstr "  Серии"
+
+#: templates/chart_wizard.inc.php:396
+msgid "Series settings"
+msgstr "Настройки серий"
+
+#: templates/chart_wizard.inc.php:397
+msgid "If you want to redefine the series labels and colors you can do it here"
+msgstr ""
+"Если вы хотите переопределить настройки ярлыков и цветов для серий, вы "
+"можете сделать это здесь"
+
+#: templates/chart_wizard.inc.php:407
+msgid "Curve type"
+msgstr "Тип кривой"
+
+#: templates/chart_wizard.inc.php:408
+msgid "Controls the curve of the lines"
+msgstr "Контролирует тип кривой в отрисованных линиях"
+
+#: templates/chart_wizard.inc.php:411
+msgid "Check for smoothed lines"
+msgstr "Включите для сглаживания кривых"
+
+#: templates/chart_wizard.inc.php:416
+msgid "3D"
+msgstr "3D"
+
+#: templates/chart_wizard.inc.php:417
+msgid "If true, displays a three-dimensional chart"
+msgstr "При включении отображает диаграмму в 3D"
+
+#: templates/chart_wizard.inc.php:420
+msgid "Check for 3D pie chart"
+msgstr "Включите для трехмерной круговой диаграммы"
+
+#: templates/chart_wizard.inc.php:434
+msgid " Axes"
+msgstr " Оси"
+
+#: templates/chart_wizard.inc.php:441
+msgid "Grid"
+msgstr "Сетка"
+
+#: templates/chart_wizard.inc.php:442
+msgid "Do you want to show grid on the chart"
+msgstr "Отображать ли сетку на диаграмме"
+
+#: templates/chart_wizard.inc.php:446
+msgid "Show grid"
+msgstr "Отображать сетку"
+
+#: templates/chart_wizard.inc.php:451
+msgid "Grid line style"
+msgstr "Стиль линий сетки"
+
+#: templates/chart_wizard.inc.php:452
+msgid "The dash or dot style of the grid lines"
+msgstr "Пунктирный или точечный стиль для линий сетки"
+
+#: templates/chart_wizard.inc.php:472
+msgid "Horizontal axis label"
+msgstr "Ярлык горизонтальной оси"
+
+#: templates/chart_wizard.inc.php:473
+msgid "Name of the horizontal axis"
+msgstr "Имя горизонтальной оси"
+
+#: templates/chart_wizard.inc.php:481
+msgid "Horizontal crosshair"
+msgstr "Крестик горизонтальной оси"
+
+#: templates/chart_wizard.inc.php:482
+msgid ""
+"Configure a horizontal crosshair that follows either the mouse pointer or "
+"the hovered point lines"
+msgstr ""
+"Настройте крестик (прицел) горизонтальной оси, который будет следовать за "
+"курсором, или за выделенными секторами диаграммы"
+
+#: templates/chart_wizard.inc.php:485
+msgid "Show x-Axis crosshair"
+msgstr "Отображать крестик для оси X"
+
+#: templates/chart_wizard.inc.php:490
+msgid "Horizontal axis direction"
+msgstr "Направление горизонтальной оси"
+
+#: templates/chart_wizard.inc.php:491
+msgid ""
+"The direction in which the values along the horizontal axis grow. Specify -1 "
+"to reverse the order of the values"
+msgstr ""
+"Направление возрастания значений по горизонтальной оси. -1 инвертирует "
+"направление"
+
+#: templates/chart_wizard.inc.php:502
+msgid "Vertical axis label"
+msgstr "Ярлык вертикальной оси"
+
+#: templates/chart_wizard.inc.php:503
+msgid "Name of the vertical axis"
+msgstr "Имя вертикальной оси"
+
+#: templates/chart_wizard.inc.php:511
+msgid "Vertical crosshair"
+msgstr "Крестик вертикальной оси"
+
+#: templates/chart_wizard.inc.php:512
+msgid ""
+"Configure a vertical crosshair that follows either the mouse pointer or the "
+"hovered point lines"
+msgstr ""
+"Настройте крестик (прицел) вертикальной оси, который будет следовать за "
+"курсором, или за выделенными секторами диаграммы"
+
+#: templates/chart_wizard.inc.php:515
+msgid "Show y-Axis crosshair"
+msgstr "Отображать крестик для оси Y"
+
+#: templates/chart_wizard.inc.php:520
+msgid "Vertical axis direction"
+msgstr "Направление вертикальной оси"
+
+#: templates/chart_wizard.inc.php:521
+msgid ""
+"The direction in which the values along the vertical axis grow. Specify -1 "
+"to reverse the order of the values"
+msgstr ""
+"Направление, в котором данные вертикальной оси будут возрастать. -1 "
+"инвертирует направление"
+
+#: templates/chart_wizard.inc.php:532
+msgid "Vertical axis min value"
+msgstr "Минимальное значение вертикальной оси"
+
+#: templates/chart_wizard.inc.php:533
+msgid "The minimum value of the axis"
+msgstr "Минимальное значение оси"
+
+#: templates/chart_wizard.inc.php:541
+msgid "Vertical axis max value"
+msgstr "Максимальное значение вертикальной оси"
+
+#: templates/chart_wizard.inc.php:542
+msgid "The maximum value of the axis"
+msgstr "Максимальное значение оси"
+
+#: templates/chart_wizard.inc.php:550
+msgid "Invert"
+msgstr "Инвертировать"
+
+#: templates/chart_wizard.inc.php:551
+msgid ""
+"Whether to invert the axes so that the x axis is vertical and y axis is "
+"horizontal"
+msgstr ""
+"Транспонировать оси, т.е. поменять вертикальные и горизонтальные оси местами"
+
+#: templates/chart_wizard.inc.php:554
+msgid "Invert chart axes"
+msgstr "Транспонировать оси"
+
+#: templates/chart_wizard.inc.php:568
+msgid " Title"
+msgstr " Название"
+
+#: templates/chart_wizard.inc.php:575
+msgid "Chart title"
+msgstr "Название диаграммы"
+
+#: templates/chart_wizard.inc.php:576
+msgid "Do you want to show the chart title on the page"
+msgstr "Отображать ли название диаграммы на странице"
+
+#: templates/chart_wizard.inc.php:579
+msgid "Show chart title on the page"
+msgstr "Отображать название диаграммы на странице"
+
+#: templates/chart_wizard.inc.php:584
+msgid "Title floating"
+msgstr "“Плавающее” название"
+
+#: templates/chart_wizard.inc.php:585
+msgid ""
+"When the title is floating, the plot area will not move to make space for it"
+msgstr ""
+"При включении этой опции на диаграмме не будет выделено специального блока "
+"для отображения названия, название будет отрисовываться во внутренней "
+"области диаграммы"
+
+#: templates/chart_wizard.inc.php:588
+msgid "Enable floating"
+msgstr "Включить плавающее название"
+
+#: templates/chart_wizard.inc.php:593
+msgid "Title align"
+msgstr "Выравнивание названия"
+
+#: templates/chart_wizard.inc.php:594
+msgid "The horizontal alignment of the title"
+msgstr "Горизонтальное выравнивание названия"
+
+#: templates/chart_wizard.inc.php:606
+msgid "Subtitle"
+msgstr "Подзаголовок"
+
+#: templates/chart_wizard.inc.php:607
+msgid "The chart's subtitle"
+msgstr "Подзаголовок диаграммы"
+
+#: templates/chart_wizard.inc.php:615
+msgid "Subtitle align"
+msgstr "Выравнивание подзаголовка"
+
+#: templates/chart_wizard.inc.php:616
+msgid "The horizontal alignment of the subtitle"
+msgstr "Горизонтальное выравнивание подзаголовка"
+
+#: templates/chart_wizard.inc.php:637
+msgid " Tooltip"
+msgstr "  Всплывающая подсказка"
+
+#: templates/chart_wizard.inc.php:644
+msgid "Tooltip"
+msgstr "Подсказка"
+
+#: templates/chart_wizard.inc.php:645
+msgid "Enable or disable the tooltip"
+msgstr "Включить или выключить всплывающую подсказку"
+
+#: templates/chart_wizard.inc.php:648
+msgid "Show tooltip"
+msgstr "Отображать подсказку"
+
+#: templates/chart_wizard.inc.php:654
+msgid "The background color for the tooltip"
+msgstr "Цвет фона подсказки"
+
+#: templates/chart_wizard.inc.php:665
+msgid "The pixel width of the tooltip border"
+msgstr "Толщина границы всплывающей подсказки"
+
+#: templates/chart_wizard.inc.php:674
+msgid "The color of the tooltip border"
+msgstr "Цвет границы всплывающей подсказки"
+
+#: templates/chart_wizard.inc.php:685
+msgid "The radius of the rounded border corners"
+msgstr "Радиус закругления границы всплывающей подсказки"
+
+#: templates/chart_wizard.inc.php:693
+msgid "Shared tooltip"
+msgstr "Объединить всплывающую подсказку"
+
+#: templates/chart_wizard.inc.php:694
+msgid ""
+"When the tooltip is shared, the entire plot area will capture mouse movement "
+"or touch events"
+msgstr ""
+"Если включено объединение всплывающей подсказки, она будет появляться для "
+"всех серий диаграммы при движении мыши по области прорисовки"
+
+#: templates/chart_wizard.inc.php:697
+msgid "Share tooltip"
+msgstr "Объединить всплывающую подсказку"
+
+#: templates/chart_wizard.inc.php:702
+msgid "Value prefix"
+msgstr "Префикс значений во всплывающей подсказке"
+
+#: templates/chart_wizard.inc.php:703
+msgid "A string to prepend to each series' y value"
+msgstr ""
+"Префикс будет добавлен перед значениями оси Y во всплывающей подсказке "
+"(например, знак валюты)"
+
+#: templates/chart_wizard.inc.php:711
+msgid "Value suffix"
+msgstr "Суффикс значений во всплывающей подсказке"
+
+#: templates/chart_wizard.inc.php:712
+msgid "A string to append to each series' y value"
+msgstr ""
+"Суффикс будет добавлен после значений оси Y во всплывающей подсказке "
+"(например, обозначение единиц)"
+
+#: templates/chart_wizard.inc.php:729
+msgid " Legend"
+msgstr " Легенда"
+
+#: templates/chart_wizard.inc.php:736
+msgid "Legend"
+msgstr "Легенда"
+
+#: templates/chart_wizard.inc.php:737
+msgid "Enable or disable the legend"
+msgstr "Включить или выключить отображение легенды"
+
+#: templates/chart_wizard.inc.php:740
+msgid "Show legend"
+msgstr "Отображать легенду"
+
+#: templates/chart_wizard.inc.php:745
+msgid "Position"
+msgstr "Позиция"
+
+#: templates/chart_wizard.inc.php:746
+msgid "Position of the legend"
+msgstr "Позиционирование легенды"
+
+#: templates/chart_wizard.inc.php:761
+msgid "The background color of the legend"
+msgstr "Фоновый цвет легенды"
+
+#: templates/chart_wizard.inc.php:771
+msgid "Title"
+msgstr "Название"
+
+#: templates/chart_wizard.inc.php:772
+msgid "A title to be added on top of the legend"
+msgstr "Название, отображаемое над легендой"
+
+#: templates/chart_wizard.inc.php:780
+msgid "Layout"
+msgstr "Расположение"
+
+#: templates/chart_wizard.inc.php:781
+msgid "The layout of the legend items"
+msgstr "Расположение элементов легенды"
+
+#: templates/chart_wizard.inc.php:792
+msgid "Align"
+msgstr "Выравнивание"
+
+#: templates/chart_wizard.inc.php:793
+msgid "The horizontal alignment of the legend box within the chart area"
+msgstr "Горизонтальное выравнивание блока легенды внутри области диаграммы"
+
+#: templates/chart_wizard.inc.php:805
+msgid "Vertical align"
+msgstr "Вертикальное выравнивание"
+
+#: templates/chart_wizard.inc.php:806
+msgid "The vertical alignment of the legend box"
+msgstr "Вертикальное выравнивание блока легенды"
+
+#: templates/chart_wizard.inc.php:819
+msgid "The width of the drawn border around the legend"
+msgstr "Ширина отображаемой границы вокруг легенды"
+
+#: templates/chart_wizard.inc.php:828
+msgid "The color of the drawn border around the legend"
+msgstr "Цвет границы вокруг легенды"
+
+#: templates/chart_wizard.inc.php:840
+msgid "The border corner radius of the legend"
+msgstr "Радиус закругления границы вокруг блока легенды"
+
+#: templates/chart_wizard.inc.php:857
+msgid " Exporting"
+msgstr " Экспорт"
+
+#: templates/chart_wizard.inc.php:864
+msgid "Exporting"
+msgstr "Экспорт"
+
+#: templates/chart_wizard.inc.php:865
+msgid "Whether to enable the exporting module"
+msgstr "Разрешить экспорт диаграммы"
+
+#: templates/chart_wizard.inc.php:868
+msgid "Export chart"
+msgstr "Экспорт диаграммы"
+
+#: templates/chart_wizard.inc.php:873
+msgid "Data labels"
+msgstr "Ярлыки данных"
+
+#: templates/chart_wizard.inc.php:874
+msgid "Add data labels to improve readaility of the exported chart"
+msgstr "Ярлыки данных облегчают чтение экспортированных диаграмм"
+
+#: templates/chart_wizard.inc.php:877
+msgid "Show data labels"
+msgstr "Отображать ярлыки данных"
+
+#: templates/chart_wizard.inc.php:882
+msgid "File name"
+msgstr "Имя файла"
+
+#: templates/chart_wizard.inc.php:883
+msgid "The filename, without extension, to use for the exported chart"
+msgstr "Имя файла, без расширения, для использования в экспортированном чарте"
+
+#: templates/chart_wizard.inc.php:891 templates/edit_table.inc.php:758
+msgid "Width"
+msgstr "Ширина"
+
+#: templates/chart_wizard.inc.php:892
+msgid "The width of the original chart when exported"
+msgstr "Ширина диаграммы при экспорте"
+
+#: templates/chart_wizard.inc.php:900
+msgid "Button align"
+msgstr "Расположение кнопки"
+
+#: templates/chart_wizard.inc.php:901
+msgid "Alignment for the export button"
+msgstr "Выравнивание кнопки экспорта"
+
+#: templates/chart_wizard.inc.php:913
+msgid "Button vertical align"
+msgstr "Вертикальное выравнивание кнопки"
+
+#: templates/chart_wizard.inc.php:914
+msgid "The vertical alignment of the export button"
+msgstr "Выравнивание кнопки экспорта по вертикали"
+
+#: templates/chart_wizard.inc.php:926
+msgid "Button color"
+msgstr "Цвет кнопки"
+
+#: templates/chart_wizard.inc.php:927
+msgid "The color of the symbol's stroke or line"
+msgstr "Цвет кнопки экспорта"
+
+#: templates/chart_wizard.inc.php:937
+msgid "Button text"
+msgstr "Текст кнопки"
+
+#: templates/chart_wizard.inc.php:938
+msgid "A text string to add to the individual button"
+msgstr "Текст, отображаемый на кнопке экспорта"
+
+#: templates/chart_wizard.inc.php:955
+msgid " Credits"
+msgstr "  Ссылка на источник"
+
+#: templates/chart_wizard.inc.php:962
+msgid "Credits"
+msgstr "Ссылка на источник"
+
+#: templates/chart_wizard.inc.php:963
+msgid "Whether to show the credits text"
+msgstr "Отображать ли текст ссылки на источник"
+
+#: templates/chart_wizard.inc.php:966
+msgid "Show credits"
+msgstr "Отображение ссылки на источник"
+
+#: templates/chart_wizard.inc.php:971
+msgid "Credits href"
+msgstr "URL со ссылки на источник"
+
+#: templates/chart_wizard.inc.php:972
+msgid "The URL for the credits label"
+msgstr "URL со ссылки на источник"
+
+#: templates/chart_wizard.inc.php:980
+msgid "Credits text"
+msgstr "Текст ссылки на источник"
+
+#: templates/chart_wizard.inc.php:981
+msgid "The text for the credits label"
+msgstr "Текст ссылки на источник"
+
+#: templates/chart_wizard.inc.php:1010
+msgid "Paste this shortcode to render this chart"
+msgstr "Используйте этот шорткод для вставки данной диаграммы на страницы"
+
+#: templates/chart_wizard.inc.php:1019 templates/constructor.inc.php:316
+msgid "&lt;&lt; Previous"
+msgstr "&lt;&lt; Предыдущий шаг"
+
+#: templates/chart_wizard.inc.php:1020 templates/constructor.inc.php:317
+msgid "Next &gt;&gt;"
+msgstr "Следующий шаг &gt;&gt"
+
+#: templates/chart_wizard.inc.php:1021
+msgid "Finish"
+msgstr "Закончить"
+
+#: templates/chart_wizard.inc.php:1035
+msgid "Pick Range"
+msgstr "Выбрать диапазон"
+
+#: templates/chart_wizard.inc.php:1055
+msgid "Label"
+msgstr "Ярлык"
+
+#: templates/chart_wizard.inc.php:1058 templates/edit_table.inc.php:784
+msgid "Color"
+msgstr "Цвет"
+
+#: templates/constructor.inc.php:12
+msgid "wpDataTables documentation on Table Consturctor"
+msgstr "документации wpDataTables по конструктору таблиц"
+
+#: templates/constructor.inc.php:12 templates/edit_table.inc.php:9
+#: templates/editor.inc.php:10
+msgid "if you have some questions or problems."
+msgstr "если у вас возникли вопросы, или проблемы."
+
+#: templates/constructor.inc.php:13
+msgid "wpDataTable constructor"
+msgstr "Конструктор таблиц wpDataTables"
+
+#: templates/constructor.inc.php:19
+msgid "Table Creation Wizard"
+msgstr "Мастер создания таблиц"
+
+#: templates/constructor.inc.php:27
+msgid "Choose what kind of table would you like to construct"
+msgstr "Выберите способ создания таблицы"
+
+#: templates/constructor.inc.php:30
+msgid "I would like to prepare structure and input all the data manually"
+msgstr "Я хочу настроить структуру таблицы и ввести данные вручную"
+
+#: templates/constructor.inc.php:31
+msgid ""
+"I would like to read the initial table data from an input file or Google "
+"Spreadsheet"
+msgstr ""
+"Я хочу импортировать таблицу в базу из файла (CSV, Excel), или из таблицы "
+"Google Spreadsheet"
+
+#: templates/constructor.inc.php:32
+msgid ""
+"I want to create a table based on my WordPress data (posts or pages, and "
+"post meta or taxonomy values)"
+msgstr ""
+"Я хочу создать таблицу на основе данных WordPress (посты и страницы, "
+"метаданные и таксономии)"
+
+#: templates/constructor.inc.php:33
+msgid "I want to construct a table based on data from existing MySQL DB tables"
+msgstr "Я хочу создать таблицу на основе данных из базы MySQL"
+
+#: templates/constructor.inc.php:42
+msgid ""
+"Please provide some initial structure metadata before the table will be "
+"created"
+msgstr "Настройте структуру и метаданные таблицы"
+
+#: templates/constructor.inc.php:43
+msgid ""
+"This constructor will help you to create a table from scratch. You will be "
+"able to edit the table content and metadata later manually at any time, but "
+"not the column number, so be careful."
+msgstr ""
+"Мастер создания таблиц позволит вам настроить и создать новую wpDataTable "
+"таблицу. Вы сможете изменить как данные внутри таблицы, так и эти метаданные "
+"позже."
+
+#: templates/constructor.inc.php:48
+#: templates/constructor_file_preview.inc.php:4
+msgid "Table name"
+msgstr "Имя таблицы"
+
+#: templates/constructor.inc.php:49
+#: templates/constructor_file_preview.inc.php:5
+msgid ""
+"What is the header of the table that will be visible to the site visitors?"
+msgstr "Наименование таблицы, по которому вы сможете находить ее в будущем"
+
+#: templates/constructor.inc.php:52
+#: templates/constructor_file_preview.inc.php:8
+msgid "New wpDataTable"
+msgstr "Новая таблица wpDataTable"
+
+#: templates/constructor.inc.php:58
+msgid ""
+"How many columns will it have? (you can also modify it below with \"+\" and "
+"\"X\" buttons)"
+msgstr ""
+"Сколько колонок будет в таблице? (Вы также можете регулировать их количество "
+"ниже с помощью кнопок \"+\" - добавить, и \"X\" - удалить)"
+
+#: templates/constructor.inc.php:66
+#: templates/constructor_file_preview.inc.php:13
+msgid "Column names and types"
+msgstr "Имена и типы колонок"
+
+#: templates/constructor.inc.php:67
+#: templates/constructor_file_preview.inc.php:14
+msgid "Drag and drop to reorder columns"
+msgstr "Перетаскивайте колонки мышкой чтобы менять их порядок"
+
+#: templates/constructor.inc.php:89
+msgid ""
+"Please upload the file that contains the initial table data (Excel or CSV), "
+"or provide a link to published Google Spreadsheet"
+msgstr ""
+"Пожалуйста, загрузите файл (Excel или CSV), или вставьте ссылку на таблицу "
+"Google, содержащую исходные данные"
+
+#: templates/constructor.inc.php:90
+msgid ""
+"This constructor type will import your table data to a MySQL table and "
+"generate a wpDataTable based on a SQL query to this table. Make sure Google "
+"Spreadsheet is publically available if you use it."
+msgstr ""
+"Мастер создания таблиц импортирует табличные данные в БД MySQL, и создаст "
+"таблицу wpDataTable на основе SQL-запроса к базе. Пожалуйста, убедитесь, что "
+"таблица Google Spreadsheet опубликована, если планируете ее использовать."
+
+#: templates/constructor.inc.php:95
+msgid "Choose the file"
+msgstr "Выберите файл"
+
+#: templates/constructor.inc.php:100
+msgid "Upload"
+msgstr "Загрузить"
+
+#: templates/constructor.inc.php:112
+msgid ""
+"Please check which columns would you like to import and make sure that the "
+"column types were imported correctly"
+msgstr ""
+"Выберите, какие колонки вы хотите импортировать, а также проверьте, "
+"правильно ли определены типы данных"
+
+#: templates/constructor.inc.php:121
+msgid "Please choose the WP data which will be used to create a table"
+msgstr "Выберите, какие данные из WordPress использовать для создания таблицы"
+
+#: templates/constructor.inc.php:122
+msgid ""
+"This constructor type will create a query to WordPress database and create a "
+"wpDataTable based on this query. This table content cannot be edited "
+"manually afterwards, but will always contain actual data from your WordPress "
+"database."
+msgstr ""
+"Этот тип конструктора таблиц помогает подготовить запрос к базе данных "
+"WordPress, и создать таблицу wpDataTable на основе этого запроса. "
+"Пожалуйста, учтите, что это только вспомогательная опция, и не всегда "
+"сформированные запросы работают идеально - по возможности напишите запрос "
+"вручную. Таблицы этого типа не могут быть сделаны редактируемыми для "
+"посетителей сайта."
+
+#: templates/constructor.inc.php:128
+msgid "Choose the post types which you would like to have in the table"
+msgstr "Выберите типы постов, которые вы хотите использовать в таблице"
+
+#: templates/constructor.inc.php:145
+msgid ""
+"Choose the posts properties that you would like to have as columns in the "
+"table"
+msgstr ""
+"Выберите поля постов, которые вы хотите использовать в качестве колонок "
+"таблицы"
+
+#: templates/constructor.inc.php:151
+msgid "Please select post types"
+msgstr "Пожалуйста, выберите типы постов"
+
+#: templates/constructor.inc.php:159
+msgid "Choose how to handle different post types"
+msgstr "Укажите, как связать выбранные типы постоы"
+
+#: templates/constructor.inc.php:163
+msgid "Define relations (joining rules) between post types"
+msgstr "Определите правила объединения данных между типами постов"
+
+#: templates/constructor.inc.php:164
+msgid "Do not define relations between post types - do a full outer join"
+msgstr "Не определять объединения различных типов постов, вывести все данные"
+
+#: templates/constructor.inc.php:170
+msgid "Define the relations between different post types"
+msgstr "Определить правила объединения данных между разными типами постов"
+
+#: templates/constructor.inc.php:179 templates/constructor.inc.php:259
+msgid "Add conditions that you would like to have"
+msgstr "Добавьте дополнительные условия, если необходимо"
+
+#: templates/constructor.inc.php:189 templates/constructor.inc.php:269
+msgid "Add grouping rules that you would like to have"
+msgstr "Добавьте правила группировки, если необходимо"
+
+#: templates/constructor.inc.php:204
+msgid "Please choose the MySQL data which will be used to create a table"
+msgstr ""
+"Выберите, пожалуйста, на базе каких данных из MySQL вы хотите создать таблицу"
+
+#: templates/constructor.inc.php:208
+msgid "Choose the tables that should provide the data to your table"
+msgstr ""
+"Выберите, данные каких MySQL таблиц вы хотите использовать в таблице "
+"wpDataTable"
+
+#: templates/constructor.inc.php:224
+msgid "Choose the columns that you would like to have in your table"
+msgstr ""
+"Выберите колонки таблиц MySQL, которые вы хотели бы использовать в таблице "
+"wpDataTable"
+
+#: templates/constructor.inc.php:230
+msgid "Please select the tables first"
+msgstr "Пожалуйста, выберите таблицы MySQL"
+
+#: templates/constructor.inc.php:238
+msgid "Choose how to handle relations between multiple tables"
+msgstr "Определите правила объединения различных таблиц MySQL"
+
+#: templates/constructor.inc.php:242
+msgid "Define relations (joining rules) between MySQL tables"
+msgstr "Определите правила объединения различных таблиц MySQL"
+
+#: templates/constructor.inc.php:243
+msgid "Do not define relations between MySQL tables - do a full outer join"
+msgstr "Не определять правила объединения - вывести все данные"
+
+#: templates/constructor.inc.php:250
+msgid "Define the relations between tables"
+msgstr "Определите правила объединения между таблицами MySQL"
+
+#: templates/constructor.inc.php:289
+msgid "Preview the query that has been generated for you"
+msgstr "Предварительный просмотр сгенерированного запроса"
+
+#: templates/constructor.inc.php:295
+msgid "Refresh query and preview"
+msgstr "Обновить запрос и предварительный просмотр"
+
+#: templates/constructor.inc.php:300
+msgid "Preview the 5 first result rows"
+msgstr "Предварительный просмотр первых 5 возвращенных рядов"
+
+#: templates/constructor.inc.php:318
+msgid "Create the table and open in editor"
+msgstr "Создать таблицу и открыть в редакторе данных"
+
+#: templates/constructor.inc.php:319
+msgid "Create the table and open in Excel-like editor"
+msgstr "Создать таблицу и открыть в Excel-редакторе"
+
+#: templates/constructor.inc.php:320
+msgid "Create wpDataTable"
+msgstr "Создать таблицу wpDataTable"
+
+#: templates/constructor.inc.php:347
+#: templates/constructor_file_preview.inc.php:29 templates/editor.inc.php:66
+msgid "Column header"
+msgstr "Заголовок колонки"
+
+#: templates/constructor.inc.php:357
+#: templates/constructor_file_preview.inc.php:39 templates/editor.inc.php:77
+msgid "Type"
+msgstr "Тип"
+
+#: templates/constructor.inc.php:369
+#: templates/constructor_file_preview.inc.php:53
+#: templates/edit_table.inc.php:596 templates/editor.inc.php:108
+msgid "Possible values"
+msgstr "Возможные значения"
+
+#: templates/constructor.inc.php:370
+#: templates/constructor_file_preview.inc.php:54 templates/editor.inc.php:109
+msgid "Separate with comma"
+msgstr "Разделяйте значения запятыми"
+
+#: templates/constructor.inc.php:381
+#: templates/constructor_file_preview.inc.php:65 templates/editor.inc.php:120
+msgid "Default value"
+msgstr "Значение по умолчанию"
+
+#: templates/constructor.inc.php:382
+#: templates/constructor_file_preview.inc.php:66 templates/editor.inc.php:121
+msgid "(Optional)"
+msgstr "(Необязательно)"
+
+#: templates/constructor.inc.php:414 templates/constructor.inc.php:487
+msgid "Check to have an inner join, uncheck to have left join"
+msgstr ""
+"Отметьте галочку, чтобы выполнить INNER JOIN, снимите отметку, чтобы "
+"выполнить LEFT JOIN"
+
+#: templates/constructor.inc.php:452
+msgid "Group by "
+msgstr "Группировать по"
+
+#: templates/constructor_file_preview.inc.php:75
+msgid "Data preview"
+msgstr "Предпросмотр данных"
+
+#: templates/edit_table.inc.php:9
+msgid "wpDataTables documentation on this page"
+msgstr "документации wpDataTables на этой страницу"
+
+#: templates/edit_table.inc.php:17 templates/editor.inc.php:18
+msgid "To insert the table on your page use the shortcode"
+msgstr ""
+"Для вставки таблицы wpDataTable в страницу или пост, используйте шорткод"
+
+#: templates/edit_table.inc.php:29
+msgid "Data source and main settings"
+msgstr "Источник данных и основные настройки"
+
+#: templates/edit_table.inc.php:31 templates/edit_table.inc.php:413
+#: templates/edit_table.inc.php:432 templates/edit_table.inc.php:455
+msgid "Save"
+msgstr "Сохранить"
+
+#: templates/edit_table.inc.php:33 templates/edit_table.inc.php:415
+#: templates/edit_table.inc.php:436 templates/edit_table.inc.php:459
+#: templates/editor.inc.php:39
+msgid "Close"
+msgstr "Закрыть"
+
+#: templates/edit_table.inc.php:43
+msgid "General setup"
+msgstr "Основные установки"
+
+#: templates/edit_table.inc.php:55
+msgid "Table title"
+msgstr "Имя таблицы"
+
+#: templates/edit_table.inc.php:59
+msgid "If you want to display a header above your table, enter it here"
+msgstr "Имя таблицы, по которому вы сможете находить ее позже"
+
+#: templates/edit_table.inc.php:64
+msgid "Show table title"
+msgstr "Отображать имя таблицы"
+
+#: templates/edit_table.inc.php:68
+msgid "Uncheck if you do not want to show the table title on the page"
+msgstr ""
+"Снимите эту галочку, если вы не хотите отображать имя таблицы на странице"
+
+#: templates/edit_table.inc.php:74
+msgid "Table type"
+msgstr "Тип таблицы"
+
+#: templates/edit_table.inc.php:78
+msgid "Select a table type..."
+msgstr "Выберите тип таблицы..."
+
+#: templates/edit_table.inc.php:80
+msgid ""
+"MySQL\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\tquery"
+msgstr ""
+"MySQL\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\tзапрос"
+
+#: templates/edit_table.inc.php:82
+msgid "CSV file"
+msgstr "Файл CSV"
+
+#: templates/edit_table.inc.php:83
+msgid "Excel file"
+msgstr "Файл Excel"
+
+#: templates/edit_table.inc.php:85
+msgid "Google spreadsheet"
+msgstr "Таблица Google Spreadsheet"
+
+#: templates/edit_table.inc.php:86
+msgid "XML file"
+msgstr "XML"
+
+#: templates/edit_table.inc.php:87
+msgid "JSON file"
+msgstr "JSON"
+
+#: templates/edit_table.inc.php:88
+msgid "Serialized PHP array"
+msgstr "Сериализованный массив PHP"
+
+#: templates/edit_table.inc.php:90
+msgid "Choose a type of input source for your table"
+msgstr "Выберите тип источника данных для этой таблицы"
+
+#: templates/edit_table.inc.php:99
+msgid "Go to editor"
+msgstr "Перейти к редактору"
+
+#: templates/edit_table.inc.php:100
+msgid "Go to Excel-like editor"
+msgstr "Перейти к Excel-редактору"
+
+#: templates/edit_table.inc.php:101
+msgid "Open the table in back-end editor to modify table data"
+msgstr ""
+"Открыть таблицу в бэк-енд редакторе, чтобы редактировать содержимое таблицы"
+
+#: templates/edit_table.inc.php:107
+msgid ""
+"Enter MySQL SELECT query that will return the data for your wpDataTable. "
+"Make sure that this query works and returns data. If you are not sure what "
+"is a MySQL query please consider using Excel data source, or spend some time "
+"reading MySQL manuals"
+msgstr ""
+"Введите MySQL запрос, которые возвращает данные для отображения в таблице. "
+"Пожалуйста, предварительно убедитесь, что запрос не вызывает MySQL ошибок, и "
+"возвращает 1 или больше рядов. Если вы не работали с MySQL, возможно, стоит "
+"использовать Excel или Google Spreadsheet в качестве источника данных."
+
+#: templates/edit_table.inc.php:107
+msgid "MySQL query"
+msgstr "MySQL запрос"
+
+#: templates/edit_table.inc.php:113
+msgid ""
+"Enter the text of your MySQL query here. You can use a number of "
+"placeholders to make the dataset in the table flexible and be able to return "
+"different sets of data by calling it with different shortcodes"
+msgstr ""
+"Введите сюда текст MySQL запроса. Вы можете использовать переменные в "
+"запросе, чтобы иметь возможность гибкого использования - с переменными один "
+"и тот же запрос может возвращать разные наборы данных, переменные могут "
+"переопределяться в шорткоде"
+
+#: templates/edit_table.inc.php:114
+msgid "MySQL query placeholders (toggle show/hide)"
+msgstr "Переменные запроса MySQL (отобразить/скрыть)"
+
+#: templates/edit_table.inc.php:118
+msgid "Placeholder"
+msgstr "Переменная"
+
+#: templates/edit_table.inc.php:119
+msgid "Description, example"
+msgstr "Описание, пример"
+
+#: templates/edit_table.inc.php:120
+msgid "Define default for table generation"
+msgstr "Значение по умолчанию для инициализирования таблицы"
+
+#: templates/edit_table.inc.php:127
+msgid ""
+"Returns the numeric value of the currently logged in user ID (wp_users "
+"table). Returns 0 for non-logged in users. If your current user does not "
+"have rows in the table you can redefine it here (it will not be stored, used "
+"only to read the table structure)."
+msgstr ""
+"Возвращает цифровой ID текущего пользователя (из таблицы wp_users). "
+"Возвращает 0 для неавторизованных пользователей. Если для вашего текущего ID "
+"(ID администратора, от имени которого сейчас открыта страница) нет записей в "
+"таблице, вы можете переопределить его здесь - это значение не будет "
+"сохраняться, использоуется только для инициализации метаданных."
+
+#: templates/edit_table.inc.php:128
+msgid "Example: SELECT * FROM mytable WHERE user_id = %CURRENT_USER_ID%"
+msgstr "Пример: SELECT * FROM mytable WHERE user_id = %CURRENT_USER_ID%"
+
+#: templates/edit_table.inc.php:135
+msgid ""
+"Variable for using in the shortcode. Can be used in filter values. It is "
+"necessary for wpDataTables to retrieve actual data from the DB at the moment "
+"of wpDataTable generation to read the columns structure, so make sure the "
+"query returns something. You can define the default variables values here, "
+"they will be used for table creation, and as defaults if not defined in "
+"shortcode."
+msgstr ""
+"Переменная для использования в шорткоде. Может использоваться в значениях "
+"фильтра. Необходимо, чтобы в момент инициализации таблицы (сохранения "
+"настроек/метаданных) MySQL запрос возвращал данные, иначе метаданные колонок "
+"не смогут быть прочитаны, так что пожалуйста, убедитесь, что запрос "
+"возвращает 1 или более рядов. Вы можете определить значения переменных по "
+"умолчанию, они будут использованы в момент инициализации, и впоследствии, в "
+"случаях, когда они не будут переопределены в шорткоде."
+
+#: templates/edit_table.inc.php:136
+msgid ""
+"Example: SELECT * FROM mytable WHERE mycolumn >= %VAR1% AND mycolumn <= "
+"%VAR2%"
+msgstr ""
+"Пример: SELECT * FROM mytable WHERE mycolumn >= %VAR1% AND mycolumn <= %VAR2%"
+
+#: templates/edit_table.inc.php:143 templates/edit_table.inc.php:150
+msgid "Variable for using in the shortcode."
+msgstr "Переменная для использования в шорткоде"
+
+#: templates/edit_table.inc.php:157
+msgid ""
+"Prefix of the current WordPress DB installation. Defaults to \"wp_\", but "
+"may be different if defined so in WordPress config."
+msgstr ""
+"Префикс базы WordPress. По умолчанию используется \"wp_\", но во многих "
+"случаях переопределен."
+
+#: templates/edit_table.inc.php:167
+msgid "Input file or URL"
+msgstr "Исходный файл, или URL"
+
+#: templates/edit_table.inc.php:172
+msgid "Upload your file or provide the full URL here"
+msgstr "Загрузите ваш файл, или укажите полный URL"
+
+#: templates/edit_table.inc.php:172
+msgid ""
+"It is allowed to use placeholders (variables) in URLs. Read about "
+"placeholders "
+msgstr "Вы можете использовать переменные в URL. Документация о переменных"
+
+#: templates/edit_table.inc.php:172
+msgid "here."
+msgstr "здесь."
+
+#: templates/edit_table.inc.php:172
+msgid "For CSV or Excel input sources only uploaded files are supported"
+msgstr ""
+"Для CSV и Excel-источников данных поддерживаются только загруженные файлы "
+"(не удаленный URL)."
+
+#: templates/edit_table.inc.php:172
+msgid ""
+"For Google Spreadsheets: please do not forget to publish the spreadsheet "
+"before pasting the URL"
+msgstr ""
+"Для таблиц Google Spreadshett: пожалуйста, не забудьте сделать таблицу "
+"опубликованной для всех прежде чем вставить URL."
+
+#: templates/edit_table.inc.php:177
+msgid "Front-end editing"
+msgstr "Онлайн-редактирование с сайта"
+
+#: templates/edit_table.inc.php:183
+msgid "Make table editable from the front-end"
+msgstr "Разрешить онлайн-редактирование с сайта"
+
+#: templates/edit_table.inc.php:183
+msgid ""
+"Works only for MySQL-based tables with server-side processing, and can only "
+"update one table on MySQL side"
+msgstr ""
+"Работает только для таблиц wpDataTables, созданных на базе MySQL-запросов, и "
+"позволяет редактирование только 1 MySQL-таблицы"
+
+#: templates/edit_table.inc.php:184
+msgid ""
+"Please save the table first so wpDataTables would read the columns data so "
+"that feature would become available."
+msgstr ""
+"Пожалуйста, сохраните таблицу, чтобы wpDataTables иницилизировал данные о "
+"колонках, после этого данная опция станет доступна"
+
+#: templates/edit_table.inc.php:189
+msgid "MySQL table name for editing"
+msgstr "Имя MySQL-таблицы для редактирования"
+
+#: templates/edit_table.inc.php:195
+msgid "Name of the MySQL table which will be used for updates from front-end"
+msgstr "Имя MySQL-таблицы, которая будет использоваться для редактирования"
+
+#: templates/edit_table.inc.php:200
+msgid "ID column for editing"
+msgstr "ID-колонка для редактирования"
+
+#: templates/edit_table.inc.php:204 templates/edit_table.inc.php:251
+msgid ""
+"Please save the table first so wpDataTables would initialize the columns"
+msgstr ""
+"Пожалуйста, сохраните таблицу, чтобы wpDataTables прочитал данные о колонках"
+
+#: templates/edit_table.inc.php:214
+msgid ""
+"Please choose a column, values from which will be used as row unique "
+"identifier. MUST be auto-increment integer on MySQL side so insert/edit/"
+"delete would work correctly!"
+msgstr ""
+"Пожалуйста, выберите колонку, данные из которой будут использоваться как "
+"уникальный идентификатор. Колонка ОБЯЗАТЕЛЬНО должна быть определена как "
+"auto-increment integer на стороне MySQL, чтобы редактирование работало "
+"правильно!"
+
+#: templates/edit_table.inc.php:215
+msgid ""
+"wpDataTables will guess the correct column if it is called \"id\" or \"ID\" "
+"on MySQL side"
+msgstr ""
+"wpDataTables попробует \"угадать\" колонку - если она называется id, ID, "
+"wdt_ID на стороне MySQL"
+
+#: templates/edit_table.inc.php:220
+msgid "Inline editing"
+msgstr "Редактирование в таблице"
+
+#: templates/edit_table.inc.php:224
+msgid ""
+"Check this checkbox if you would like to be able to edit the table data "
+"inline, by double-clicking a cell, not only in a modal dialog"
+msgstr ""
+"Отметьте эту галочку, чтобы включить возможность редактировать данные по "
+"двойному клику на ячейке таблицы, а не только через всплывающее диалоговое "
+"окно"
+
+#: templates/edit_table.inc.php:229
+msgid "Popover tools"
+msgstr "Всплывающий блок инструментов"
+
+#: templates/edit_table.inc.php:233
+msgid ""
+"Check this checkbox if you would like to get the New, Edit and Delete "
+"buttons in a popover on click on a table row, instead of in TableTools block "
+"above the table"
+msgstr ""
+"Включите эту галочку, если хотите, чтобы кнопки \"Добавить\", \"Редактировать"
+"\" и \"Удалить\" отображались во всплывающем блоке по щелчку на строке "
+"таблицы, а не в блоке инструментов над таблицей."
+
+#: templates/edit_table.inc.php:238
+msgid "Users see and edit only their data"
+msgstr ""
+"Разрешать пользователям видеть и редактировать только собственные данные"
+
+#: templates/edit_table.inc.php:242
+msgid "Limit editing to user's own data only"
+msgstr ""
+"Ограничить возможность редактирования для пользователей только их "
+"собственными данными"
+
+#: templates/edit_table.inc.php:242
+msgid ""
+"Set this to checked if you would like front-end users to see and edit only "
+"their own data, i.e. rows with their WordPress user ID"
+msgstr ""
+"Включите эту галочку, чтобы пользователи сайта могли видеть и редактировать "
+"только собственные данные - т.е. строки таблицы, содержащие их идентификатор "
+"пользователя"
+
+#: templates/edit_table.inc.php:247
+msgid "User ID column"
+msgstr "Колонка-идентификатор пользователя"
+
+#: templates/edit_table.inc.php:264 templates/edit_table.inc.php:480
+msgid "Editor roles"
+msgstr "Разрешить редактирование таблицы для следующих ролей"
+
+#: templates/edit_table.inc.php:268
+msgid "Choose roles"
+msgstr "Выберите роли"
+
+#: templates/edit_table.inc.php:269
+msgid ""
+"Roles which are allowed to edit the table (leave blank to alllow editing for "
+"everyone)"
+msgstr ""
+"Пользователи, имеющие выбранные роли, смогут редактировать данную таблицу "
+"(оставьте пустым, чтобы редактировать могли все)"
+
+#: templates/edit_table.inc.php:274
+msgid "Additional settings"
+msgstr "Дополнительные настройки"
+
+#: templates/edit_table.inc.php:279
+msgid "Server-side processing"
+msgstr "Обработка данных на стороне сервера"
+
+#: templates/edit_table.inc.php:284
+msgid ""
+"Server-side processing for MySQL-based tables. Required for front-end editing"
+msgstr ""
+"Обработка данных на стороне сервера. Необходимо для возможности онлайн-"
+"редактирования таблиц"
+
+#: templates/edit_table.inc.php:289
+msgid "Auto-refresh"
+msgstr "Авто-обновление"
+
+#: templates/edit_table.inc.php:293
+msgid ""
+"Auto-refresh interval in seconds for tables with server-side processing. "
+"Leave blank or zero to disable auto-refresh."
+msgstr ""
+"Интервал авто-обновления в секундах для таблиц с серверной обработкой "
+"данных. Оставьте пустым, или 0, чтобы отключить авто-обновление"
+
+#: templates/edit_table.inc.php:298
+msgid "Responsive"
+msgstr "Адаптивность"
+
+#: templates/edit_table.inc.php:303
+msgid ""
+"Check this checkbox if you would like this table to be responsive - display "
+"differently on desktops, tablets and mobiles"
+msgstr ""
+"Включите эту галочку, если вы хотите, чтобы таблица была адаптивной - "
+"отображалась по-разному на стационарных компьютерах, планшетах и мобильных "
+"телефонах"
+
+#: templates/edit_table.inc.php:308
+msgid "Scrollable"
+msgstr "Прокрутка"
+
+#: templates/edit_table.inc.php:312
+msgid ""
+"Check this checkbox if you would like this table to be horizontal scrollable"
+msgstr ""
+"Включите эту галочку, если хотите, чтобы под таблицей отображался ползунок "
+"для прокрутки (удобно для широких таблиц, чтобы не растягивали страницу)"
+
+#: templates/edit_table.inc.php:317
+msgid "Hide table until page is completely loaded"
+msgstr "Скрыть таблицу пока она полностью не загрузится"
+
+#: templates/edit_table.inc.php:321
+msgid ""
+"Check this checkbox if you would prevent table from showing until the page "
+"loads completely. May be useful for slowly loading pages"
+msgstr ""
+"Включите эту галочку, если хотите чтобы таблица была скрыта до тех пор, пока "
+"страница, таблица и все элементы не загрузятся. Удобно для медленно "
+"открывающихся страниц"
+
+#: templates/edit_table.inc.php:326
+msgid "Advanced filtering"
+msgstr "Дополнительные фильтры"
+
+#: templates/edit_table.inc.php:332
+msgid ""
+"Check this checkbox if you would like to have a filter below each column"
+msgstr ""
+"Включите эту опцию, если хотите иметь возможность индивидуального фильтра по "
+"значениям каждой колонки"
+
+#: templates/edit_table.inc.php:337
+msgid "Filter in form"
+msgstr "Фильтр во внешней форме"
+
+#: templates/edit_table.inc.php:342
+msgid ""
+"Check this checkbox if you would like to have the advanced filter in a form"
+msgstr ""
+"Включите эту галочку, если хотите отображать дополнительные фильтры не в "
+"самой таблице, а во внешней форме"
+
+#: templates/edit_table.inc.php:347
+msgid "Table tools"
+msgstr "Блок табличных инструментов"
+
+#: templates/edit_table.inc.php:351
+msgid ""
+"Check this checkbox if you would like to have the table tools (copy, save to "
+"excel, save to CSV, etc) enabled for this table"
+msgstr ""
+"Включите эту опцию, если хотите отображать для этой таблицы блок "
+"инструментов (копирование в буфер, сохранить в Excel-файл, сохранить в CSV)"
+
+#: templates/edit_table.inc.php:358
+msgid "Configure table tools (toggle show/hide)"
+msgstr "Настройки блока инструментов"
+
+#: templates/edit_table.inc.php:360
+msgid "Show column visibility button"
+msgstr "Отображать кнопку настройки видимости колонок"
+
+#: templates/edit_table.inc.php:361
+msgid "Show print button"
+msgstr "Показывать кнопку печати таблицы"
+
+#: templates/edit_table.inc.php:362
+msgid "Show copy to clipboard button"
+msgstr "Показывать кнопку копирования в буфер"
+
+#: templates/edit_table.inc.php:363
+msgid "Show Excel export button"
+msgstr "Показывать кнопку экспорта в Excel"
+
+#: templates/edit_table.inc.php:364
+msgid "Show CSV export button"
+msgstr "Показывать кнопку экспорта в CSV-файл"
+
+#: templates/edit_table.inc.php:365
+msgid "Show PDF export button"
+msgstr "Показывать кнопку экспорта в PDF-файл"
+
+#: templates/edit_table.inc.php:371
+msgid "Enable sorting"
+msgstr "Включить возможность сортировки"
+
+#: templates/edit_table.inc.php:375
+msgid ""
+"Check this checkbox if you would like to have sorting feature in your table"
+msgstr ""
+"Включите эту галочку, если хотите иметь возможность сортировать таблицу по "
+"значениям разных колонок"
+
+#: templates/edit_table.inc.php:380
+msgid "Limit table layout"
+msgstr "Ограничить ширину таблицы"
+
+#: templates/edit_table.inc.php:384
+#, php-format
+msgid ""
+"Check this checkbox if you would like to limit the table's width to 100% of "
+"parent container (div)"
+msgstr ""
+"Включите эту галочку, если хотите, чтобы ширина таблицы принудительно "
+"ограничивалась 100% шириной родительского элемента (div)"
+
+#: templates/edit_table.inc.php:389
+msgid "Word wrap"
+msgstr "Перенос слов"
+
+#: templates/edit_table.inc.php:393
+msgid ""
+"Check this checkbox if you would like words in cells to wrap and to extend "
+"row's height. Leave unchecked if you want to leave one-line row heights."
+msgstr ""
+"Включите эту галочку, если хотите, чтобы слова в ячейках, заголовке и "
+"подвале таблицы переносились на следующие ряды, и растягивали строки по "
+"высоте. Оставьте выключенной, если хотите, чтобы все строки были высотой в 1 "
+"линию."
+
+#: templates/edit_table.inc.php:398
+msgid "Display length"
+msgstr "Количество строк на странице по умолчанию"
+
+#: templates/edit_table.inc.php:402 templates/edit_table.inc.php:403
+#: templates/edit_table.inc.php:404 templates/edit_table.inc.php:405
+msgid "entries"
+msgstr "строк"
+
+#: templates/edit_table.inc.php:408
+msgid ""
+"This options defines the default number of entries on the page for this table"
+msgstr ""
+"Эта настройка определяет количество строк, которые будут отображаться на 1 "
+"странице таблицы по умолчанию"
+
+#: templates/edit_table.inc.php:430
+msgid "Optional column setup"
+msgstr "Дополнительные настройки колонок"
+
+#: templates/edit_table.inc.php:433 templates/edit_table.inc.php:456
+msgid "Ungroup"
+msgstr "Разгруппировать"
+
+#: templates/edit_table.inc.php:434 templates/edit_table.inc.php:457
+msgid "Add formula..."
+msgstr "Добавить формулу..."
+
+#: templates/edit_table.inc.php:445
+msgid ""
+"You can change the column settings in this step, but this is not required, "
+"since default options have already been generated for you"
+msgstr ""
+"Здесь вы можете переопределить настройки отображения и поведения колонок - "
+"это необязательно, так как установки по умолчанию уже сгенерированы"
+
+#: templates/edit_table.inc.php:446
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: templates/edit_table.inc.php:446
+msgid ""
+"If you change the table settings, save the table before modifying the column "
+"settings, because the column set can be changed and you may lose your changes"
+msgstr ""
+"Если вы меняете основные настройки таблицы - сохраните их перед тем, как "
+"будете менять настройки колонок, так как количество и структура колонок "
+"может измениться, и вы можете потерять несохраненные изменения"
+
+#: templates/edit_table.inc.php:481
+msgid ""
+"Choose user roles allowed to edit this table (leave blank to alllow editing "
+"for everyone):"
+msgstr ""
+"Пользователи, имеющие выбранные роли, смогут редактировать данную таблицу "
+"(оставьте пустым, чтобы редактировать могли все)"
+
+#: templates/edit_table.inc.php:495
+msgid "Formula editor"
+msgstr "Редактор формул"
+
+#: templates/edit_table.inc.php:496
+msgid ""
+"Use this dialog to construct formulas and see a preview of the result. You "
+"can use columns (values for each cell will be inserted), or number values. "
+"Only numeric columns allowed (non-numeric will be parsed as 0). Basic math "
+"operations and brackets are supported. Example: col1*((col2+2)-"
+"col3*sin(col4-3))."
+msgstr ""
+"Здесь вы можете сконструировать формулу и посмотреть результат ее вычисления "
+"для 5 первых рядов таблицы. Вы можете использовать имена колонок (для "
+"расчета будут подставляться данные ячеек), или числовые значения. Только "
+"колонки, имеющие числовые типы, могут использоваться в формуле (не-числовые "
+"будут всегда прочитываться как 0). Поддерживаются основные математические "
+"операторы и скобки для определения приоритета вычислений. Пример: "
+"col1*((col2+2)-col3*sin(col4-3))."
+
+#: templates/edit_table.inc.php:499
+msgid "Columns to use"
+msgstr "Колонки, которые можно использовать"
+
+#: templates/edit_table.inc.php:519
+msgid "Formula"
+msgstr "Формула"
+
+#: templates/edit_table.inc.php:524
+msgid "Preview result for first 5 rows"
+msgstr "Предварительный просмотр результата для первых 5 рядов"
+
+#: templates/edit_table.inc.php:531
+msgid "Formatting rules"
+msgstr "Правила форматирования"
+
+#: templates/edit_table.inc.php:535
+msgid "Add a formatting rule"
+msgstr "Добавить правило форматирования"
+
+#: templates/edit_table.inc.php:539
+msgid "Merge values"
+msgstr "Объединить значения"
+
+#: templates/edit_table.inc.php:540
+msgid "There are already defined possible values."
+msgstr "Возможные значения для этой колонки уже определены."
+
+#: templates/edit_table.inc.php:541
+msgid "Do you want to merge new values with existing?"
+msgstr ""
+"Вы хотите объединить новые и существующие возможные значения, или заменить "
+"существующие?"
+
+#: templates/edit_table.inc.php:579
+msgid "Displayed header"
+msgstr "Отображаемый заголовок"
+
+#: templates/edit_table.inc.php:587
+msgid "CSS class(es)"
+msgstr "CSS класс(ы)"
+
+#: templates/edit_table.inc.php:598
+msgid "Separate with"
+msgstr "Разделяйте символом"
+
+#: templates/edit_table.inc.php:598
+msgid "Used in advanced filterdropdown and in the editor dialog"
+msgstr "Используются в фильтрах и в редакторе"
+
+#: templates/edit_table.inc.php:601
+msgid "Create from column values"
+msgstr "Прочитать значения"
+
+#: templates/edit_table.inc.php:602
+msgid "Clear values"
+msgstr "Очистить"
+
+#: templates/edit_table.inc.php:612
+msgid "Default value(s)"
+msgstr "Значение/значения по умолчанию"
+
+#: templates/edit_table.inc.php:614
+msgid ""
+"Predefined filter value, default editor input value. Separate multiple "
+"values with \"|\". Placeholders supported."
+msgstr ""
+"Используется как предпределенное значение для фильтра по этой колонке, "
+"значение по умолчанию для редактора. Если хотите задать несколько значений "
+"по умолчанию, разделите их с помощью символа \"|\". Поддерживает переменные"
+
+#: templates/edit_table.inc.php:624
+msgid "Filter type"
+msgstr "Тип фильтра"
+
+#: templates/edit_table.inc.php:636
+msgid "Column type"
+msgstr "Тип колонки"
+
+#: templates/edit_table.inc.php:648
+msgid "Formula for calculation:"
+msgstr "Формула для вычисления:"
+
+#: templates/edit_table.inc.php:649
+msgid "Formula constructor"
+msgstr "Конструктор формул"
+
+#: templates/edit_table.inc.php:657
+msgid "Editor input type:"
+msgstr "Тип поля ввода:"
+
+#: templates/edit_table.inc.php:667
+msgid "Cannot be empty:"
+msgstr "Не может быть пустым:"
+
+#: templates/edit_table.inc.php:676
+msgid "Hide on tablets"
+msgstr "Скрывать на планшетах"
+
+#: templates/edit_table.inc.php:687
+msgid "Hide on mobiles"
+msgstr "Скрывать на мобильных устройствах"
+
+#: templates/edit_table.inc.php:699
+msgid "Group column"
+msgstr "Группировать по этой колонке"
+
+#: templates/edit_table.inc.php:712
+msgid "Default sort column"
+msgstr "Сортировать по умолчанию"
+
+#: templates/edit_table.inc.php:717
+msgid "Ascending"
+msgstr "По возрастанию"
+
+#: templates/edit_table.inc.php:719
+msgid "Descending"
+msgstr "По убыванию"
+
+#: templates/edit_table.inc.php:726
+msgid "Show a total for this column in footer"
+msgstr "Отображать сумму ячеек в подвале"
+
+#: templates/edit_table.inc.php:738
+msgid "Skip thousands separator"
+msgstr "Не отображать разделитель разрядов"
+
+#: templates/edit_table.inc.php:750
+msgid "Column position"
+msgstr "Позиция по порядку"
+
+#: templates/edit_table.inc.php:760
+#, php-format
+msgid ""
+"Input width for column (in percents with % or pixels without \"px\"). Leave "
+"blank if you want to leave auto width"
+msgstr ""
+"Ширина колонки (в процентах со знаком \"%\" или в пикселях, без \"px\"). "
+"Оставьте пустым, если хотите оставить автоматическую ширину. Работает при "
+"включенном ограничении ширины."
+
+#: templates/edit_table.inc.php:768
+msgid "Display text before"
+msgstr "Текст перед значением ячейки"
+
+#: templates/edit_table.inc.php:776
+msgid "Display text after"
+msgstr "Текст после значения ячейки"
+
+#: templates/edit_table.inc.php:792
+msgid "Visible"
+msgstr "Видимость"
+
+#: templates/edit_table.inc.php:804
+msgid "Conditional formatting"
+msgstr "Условное форматирование"
+
+#: templates/edit_table.inc.php:806
+msgid ""
+"Conditional formatting allows you to add special formatting rules depending "
+"on different values of the cell in this column. E.g. you can add a CSS class "
+"or color to cell or whole row, etc"
+msgstr ""
+"Условное форматирование позволяет вам задавать специальные правила "
+"форматирования, в зависимости от различных значений данной колонки. "
+"Например, вы можете изменить цвет для указанных значений ячейки добавить CSS "
+"класс, поменять цвет целого ряда, и. т. д."
+
+#: templates/edit_table.inc.php:810
+msgid "Define rules"
+msgstr "Определить"
+
+#: templates/edit_table.inc.php:824
+msgid "If cell value"
+msgstr "Если значение ячейки"
+
+#: templates/edit_table.inc.php:832
+msgid "contains"
+msgstr "содержит"
+
+#: templates/edit_table.inc.php:833
+msgid "does not contain"
+msgstr "не содержит"
+
+#: templates/edit_table.inc.php:837
+msgid "Set cell color"
+msgstr "Установить цвет ячейки"
+
+#: templates/edit_table.inc.php:838
+msgid "Reset cell color to default"
+msgstr "Вернуть цвет ячейки по умолчанию"
+
+#: templates/edit_table.inc.php:839
+msgid "Set cell content"
+msgstr "Установить содержимое ячейки"
+
+#: templates/edit_table.inc.php:840
+msgid "Set cell CSS class"
+msgstr "Добавить CSS-класс к ячейке"
+
+#: templates/edit_table.inc.php:841
+msgid "Remove cell CSS class"
+msgstr "Удалить CSS-класс из ячейки"
+
+#: templates/edit_table.inc.php:842
+msgid "Set row color"
+msgstr "Установить цвет строки"
+
+#: templates/edit_table.inc.php:843
+msgid "Reset row color to default"
+msgstr "Вернуть цвет строки по умолчанию"
+
+#: templates/edit_table.inc.php:844
+msgid "Set row CSS class"
+msgstr "Установить CSS-класс для строки"
+
+#: templates/edit_table.inc.php:845
+msgid "Remove row CSS class"
+msgstr "Удалить CSS-класс строки"
+
+#: templates/edit_table.inc.php:846
+msgid "Set column color"
+msgstr "Установить цвет колонки"
+
+#: templates/edit_table.inc.php:847
+msgid "Add column CSS class"
+msgstr "Добавить CSS-класс к колонке"
+
+#: templates/edit_table.inc.php:856
+msgid "Table saved!"
+msgstr "Таблица сохранена!"
+
+#: templates/editor.inc.php:10
+msgid "wpDataTables documentation on the back-end editor"
+msgstr "документации wpDataTables по бэк-енд редактору"
+
+#: templates/editor.inc.php:12
+msgid "wpDataTables manual editor"
+msgstr "Ручной редактор таблиц wpDataTables"
+
+#: templates/editor.inc.php:28
+msgid "Edit the table content"
+msgstr "Редактировать содержимое таблицы"
+
+#: templates/editor.inc.php:30
+msgid "Add column"
+msgstr "Добавить колонку"
+
+#: templates/editor.inc.php:31
+msgid "Remove column"
+msgstr "Удалить колонку"
+
+#: templates/editor.inc.php:34
+msgid "Standard editor"
+msgstr "Стандартный редактор"
+
+#: templates/editor.inc.php:36
+msgid "Excel-like editor"
+msgstr "Excel-редактор"
+
+#: templates/editor.inc.php:38
+msgid "Go to table settings"
+msgstr "Перейти к настройкам таблицы"
+
+#: templates/editor.inc.php:60
+msgid "Add Column"
+msgstr "Добавить колонку"
+
+#: templates/editor.inc.php:71
+msgid "Column header cannot be empty!"
+msgstr "Имя колонки не может быть пустым!"
+
+#: templates/editor.inc.php:91
+msgid "Insert after"
+msgstr "Добавить после"
+
+#: templates/editor.inc.php:96
+msgid "Beginning of table"
+msgstr "Начало таблицы"
+
+#: templates/editor.inc.php:97
+msgid "End of table"
+msgstr "Конец таблицы"
+
+#: templates/editor.inc.php:130
+msgid "Fill with default value?"
+msgstr "Заполнить значением по умолчанию?"
+
+#: templates/editor.inc.php:145
+msgid "Remove Column"
+msgstr "Удалить колонку"
+
+#: templates/editor.inc.php:150
+msgid "Delete column"
+msgstr "Удалить колонку"
+
+#: templates/editor.inc.php:165
+msgid "Confirm"
+msgstr "Подтвердите"
+
+#: templates/editor.inc.php:168
+msgid "Are you sure? There is no undo!"
+msgstr "Вы уверены? Данную операцию нельзя отменить!"
+
+#: templates/editor.inc.php:169
+msgid "Please confirm column deletion!"
+msgstr "Подтвердите удаление колонки!"
+
+#: templates/filter_widget.inc.php:3
+msgid "Clear filters"
+msgstr "Очистить фильтры"
+
+#: templates/settings.inc.php:10
+msgid "wpDataTables documentation on this feature"
+msgstr "документации wpDataTables по этой странице"
+
+#: templates/settings.inc.php:11
+msgid "wpDataTables settings"
+msgstr "Настройки wpDataTables"
+
+#: templates/settings.inc.php:24
+msgid "Main settings"
+msgstr "Основные настройки"
+
+#: templates/settings.inc.php:32
+msgid "Use separate MySQL connection"
+msgstr "Использовать независимое подключение к MySQL"
+
+#: templates/settings.inc.php:36
+msgid ""
+"If this checkbox is checked, wpDataTables will use its own connection to "
+"MySQL bases. In other case it will use the main WordPress MySQL connection."
+msgstr ""
+"Если эта галочка включена, wpDataTables будет использовать собственное "
+"подключение к базе MySQL - база может храниться на другом сервере. Если "
+"галочка выключена (по умолчанию) wpDataTables будет использовать ту же базу "
+"данных, что и WordPress."
+
+#: templates/settings.inc.php:42
+msgid "MySQL host"
+msgstr "MySQL сервер"
+
+#: templates/settings.inc.php:46
+msgid "MySQL host address"
+msgstr "Адрес сервера MySQL"
+
+#: templates/settings.inc.php:51
+msgid "MySQL database"
+msgstr "База MySQL"
+
+#: templates/settings.inc.php:55
+msgid "MySQL database name"
+msgstr "Имя базы данных MySQL"
+
+#: templates/settings.inc.php:60
+msgid "MySQL user"
+msgstr "Пользователь MySQL"
+
+#: templates/settings.inc.php:64
+msgid "MySQL username for the connection"
+msgstr "Имя пользователя MySQL для подключения"
+
+#: templates/settings.inc.php:69
+msgid "MySQL password"
+msgstr "Пароль MySQL"
+
+#: templates/settings.inc.php:73
+msgid "MySQL password for the provided user"
+msgstr "Пароль указанного пользователя для подключения к MySQL"
+
+#: templates/settings.inc.php:78
+msgid "MySQL port"
+msgstr "Порт MySQL"
+
+#: templates/settings.inc.php:82
+msgid "MySQL port for the connection (default: 3306)"
+msgstr "Порт сервиса MySQL (по умолчанию 3306)"
+
+#: templates/settings.inc.php:87
+msgid "Test connection"
+msgstr "Проверить подключение"
+
+#: templates/settings.inc.php:90
+msgid "Test MySQL settings"
+msgstr "Проверка настроек MySQL"
+
+#: templates/settings.inc.php:91
+msgid ""
+"Click this button to test if wpDataTables is able to connect to the MySQL "
+"server with the details you provided"
+msgstr ""
+"Нажмите эту кнопку, чтобы убедиться, что указанные настройки работают, и "
+"wpDataTables может подключиться к вашей базе MySQL"
+
+#: templates/settings.inc.php:97
+msgid "Interface language"
+msgstr "Язык интерфейса"
+
+#: templates/settings.inc.php:108
+msgid "Pick the language which will be used in tables interface"
+msgstr ""
+"Выберите язык, который будет использоваться во фронт-енд интерфейсе таблиц"
+
+#: templates/settings.inc.php:113
+msgid "Tables per admin page"
+msgstr "Количество таблиц на странице обзора"
+
+#: templates/settings.inc.php:121
+msgid "How many tables to show in the browse page"
+msgstr ""
+"Сколько таблиц на одной странице показывать в админ-панели на странице обзора"
+
+#: templates/settings.inc.php:126
+msgid "Base skin"
+msgstr "Основной скин"
+
+#: templates/settings.inc.php:130 templates/settings.inc.php:131
+msgid "Skin"
+msgstr "Скин"
+
+#: templates/settings.inc.php:133
+msgid "Choose the base skin for the plugin"
+msgstr "Выберите основной скин плагина"
+
+#: templates/settings.inc.php:138
+msgid "Render advanced filter"
+msgstr "Отображать дополнительные фильтры"
+
+#: templates/settings.inc.php:142
+msgid "In the header"
+msgstr "В шапке таблицы"
+
+#: templates/settings.inc.php:143
+msgid "In the footer"
+msgstr "В подвале таблицы"
+
+#: templates/settings.inc.php:145
+msgid ""
+"Choose where you would like to render the advanced filter for tables where "
+"enabled"
+msgstr ""
+"Где вы хотите отображать дополнительные фильтры для таблица, где они включены"
+
+#: templates/settings.inc.php:150
+msgid "Date format"
+msgstr "Формат даты"
+
+#: templates/settings.inc.php:166
+msgid "Pick the date format to use in date column type"
+msgstr ""
+"Выберите формат даты, который будет использоваться в колонках типа \"Дата\""
+
+#: templates/settings.inc.php:171
+msgid "Number format"
+msgstr "Форматирование чисел"
+
+#: templates/settings.inc.php:178
+msgid "Pick the number format (thousands and decimals separator)"
+msgstr ""
+"Выберите, как форматировать числа (разделитель разрядов и разделитель "
+"десятичной части)"
+
+#: templates/settings.inc.php:183
+msgid "Decimal places"
+msgstr "Знаков после запятой"
+
+#: templates/settings.inc.php:187
+msgid "Define the amount of decimal places for the float numbers"
+msgstr "Определите количество знаков после запятой для дробных чисел"
+
+#: templates/settings.inc.php:192
+msgid "Align numbers to the right"
+msgstr "Выравнивать числа по правой стороне"
+
+#: templates/settings.inc.php:196
+msgid ""
+"If this checkbox is checked all numerical values will be aligned to the "
+"right of the cell"
+msgstr ""
+"Если данная галочка включена, все числовые значения будут выравниваться по "
+"правой стороне ячейки"
+
+#: templates/settings.inc.php:202
+msgid "Tablet width"
+msgstr "Ширина планшета"
+
+#: templates/settings.inc.php:206
+msgid ""
+"Here you can specify width of the screen (in pixels) that will be treated as "
+"a tablet. You can set it wider if you want responsive effect on desktops."
+msgstr ""
+"Здесь вы можете указать ширину экрана (в пикселях), которая будет считаться "
+"шириной планшета. Вы можете установить ее шире, чем по умолчанию, если "
+"хотите включить адаптивный эффект для стационарных компьютеров и ноутбуков."
+
+#: templates/settings.inc.php:212
+msgid "Mobile width"
+msgstr "Ширина мобильных телефонов"
+
+#: templates/settings.inc.php:216
+msgid "Here you can specify width (in pixels) will be treated as a mobile."
+msgstr ""
+"Здесь вы можете указать ширину экрана (в пикселях), которая будет считаться "
+"шириной мобильных устройств"
+
+#: templates/settings.inc.php:222
+msgid "Purchase code"
+msgstr "Код подтверждения покупки"
+
+#: templates/settings.inc.php:226
+msgid ""
+"Please enter your Envato purchase code to enable plugin auto-updates. Leave "
+"blank if you do not want the plugin to auto-update"
+msgstr ""
+"Пожалуйста, введите код подтверждения покупки с Envato чтобы включить авто-"
+"обноваления плагина. Оставьте пустым, чтобы плагин не пытался автоматически "
+"обновляться."
+
+#: templates/settings.inc.php:233 templates/settings.inc.php:474
+#: templates/settings.inc.php:522
+msgid "Save options"
+msgstr "Сохранить настройки"
+
+#: templates/settings.inc.php:245
+msgid "Color and font settings"
+msgstr "Настройки цветов и шрифтов"
+
+#: templates/settings.inc.php:248 templates/settings.inc.php:490
+msgid "Leave the setting blank to use default value"
+msgstr "Оставьте настройку пустой, чтобы использовать значение по умолчанию"
+
+#: templates/settings.inc.php:253
+msgid "Table font color"
+msgstr "Цвет шрифта в таблицах"
+
+#: templates/settings.inc.php:257
+msgid "This color is used for the main font in table cells"
+msgstr "Этот цвет будет использоваться для основного шрифта в ячейках таблицы"
+
+#: templates/settings.inc.php:262
+msgid "Header background color"
+msgstr "Цвет фона заголовка"
+
+#: templates/settings.inc.php:266
+msgid "The color is used for background of the table header"
+msgstr "Этот цвет будет использоваться как фоновый в шапке таблицы"
+
+#: templates/settings.inc.php:271
+msgid "Header border color"
+msgstr "Цвет границы "
+
+#: templates/settings.inc.php:275
+msgid "This color is used for the border in the table header"
+msgstr "Этот цвет будет использоваться для границы в шапке таблицы"
+
+#: templates/settings.inc.php:280
+msgid "Header font color"
+msgstr "Цвет шрифта в шапке"
+
+#: templates/settings.inc.php:284
+msgid "This color is used for the font in the table header"
+msgstr "Этот цвет будет использоваться для шрифта в шапке таблицы"
+
+#: templates/settings.inc.php:289
+msgid "Header active and hover color"
+msgstr "Цвет активного заголовка, и подсветки при наведении"
+
+#: templates/settings.inc.php:293
+msgid ""
+"This color is used when you hover the mouse above the table header, or when "
+"you choose a column"
+msgstr ""
+"Этот цвет будет использоваться для заголовка, над которым пользователь "
+"проводит курсором мыши, и для активной колонки, по которой сортируется "
+"таблица"
+
+#: templates/settings.inc.php:298
+msgid "Table inner border color"
+msgstr "Цвет внутренней границы таблицы"
+
+#: templates/settings.inc.php:302
+msgid "This color is used for the inner border in the table between cells"
+msgstr ""
+"Этот цвет будет использоваться для внутренних границ между ячейками таблицы"
+
+#: templates/settings.inc.php:307
+msgid "Table outer border color"
+msgstr "Цвет наружней границы таблицы"
+
+#: templates/settings.inc.php:311
+msgid "This color is used for the outer border of the whole table body"
+msgstr "Этот цвет будет использоваться для внешней границы таблицы целиком"
+
+#: templates/settings.inc.php:316
+msgid "Even row background color"
+msgstr "Цвет четных строк"
+
+#: templates/settings.inc.php:320
+msgid "This color is used for for background in even rows"
+msgstr "Этот цвет будет использоваться как фон четных строк"
+
+#: templates/settings.inc.php:325
+msgid "Odd row background color"
+msgstr "Цвет нечетных строк"
+
+#: templates/settings.inc.php:329
+msgid "This color is used for for background in odd rows"
+msgstr "Этот цвет будет использоваться как фон нечетных строк"
+
+#: templates/settings.inc.php:334
+msgid "Hover row color"
+msgstr "Цвет подсветки строк"
+
+#: templates/settings.inc.php:338
+msgid ""
+"This color is used for to highlight the row when you hover your mouse above "
+"it"
+msgstr ""
+"Этот цвет будет использоваться для подсвечивания строк, по которым "
+"пользователь проводит курсором мыши"
+
+#: templates/settings.inc.php:343
+msgid "Cell color in active (sorted) columns for even rows"
+msgstr "Цвет ячейки активных (отсортированных) колонок для четных строк"
+
+#: templates/settings.inc.php:347
+msgid ""
+"This color is used for background in cells which are in the active columns "
+"(columns used for sorting) in even rows"
+msgstr ""
+"Этот цвет будет использоваться как фоновый для ячеек активных колонок "
+"(колонок, используемых для сортировки) в четных строках"
+
+#: templates/settings.inc.php:352
+msgid "Cell color in active (sorted) columns for odd rows"
+msgstr "Цвет ячейки активных (отсортированных) колонок для нечетных строк"
+
+#: templates/settings.inc.php:356
+msgid ""
+"This color is used for background in cells which are in the active columns "
+"(columns used for sorting) in odd rows"
+msgstr ""
+"Этот цвет будет использоваться как фоновый для ячеек активных колонок "
+"(колонок, используемых для сортировки) в нечетных строках"
+
+#: templates/settings.inc.php:361
+msgid "Backround color for selected rows"
+msgstr "Фоновый цвет для выбранных строк"
+
+#: templates/settings.inc.php:365
+msgid "This color is used for background in selected rows"
+msgstr ""
+"Этот цвет будет использоваться как фон выбранных строк (для редактирования)"
+
+#: templates/settings.inc.php:370
+msgid "Buttons background color"
+msgstr "Цвет кнопок"
+
+#: templates/settings.inc.php:374
+msgid "This color is used for background in buttons"
+msgstr "Этот цвет будет использоваться как фоновый цвет кнопок"
+
+#: templates/settings.inc.php:379
+msgid "Buttons border color"
+msgstr "Цвет границ кнопок"
+
+#: templates/settings.inc.php:383
+msgid "This color is used for border in buttons"
+msgstr "Этот цвет будет использоваться для границ кнопок"
+
+#: templates/settings.inc.php:388
+msgid "Buttons font color"
+msgstr "Цвет шрифта кнопок"
+
+#: templates/settings.inc.php:392
+msgid "This color is used for font in buttons"
+msgstr "Этот цвет будет использоваться для шрифта кнопок"
+
+#: templates/settings.inc.php:397
+msgid "Buttons background hover color"
+msgstr "Цвет подсветки кнопок"
+
+#: templates/settings.inc.php:401
+msgid ""
+"This color will be used for button backgrounds when you hover above them"
+msgstr ""
+"Этот цвет будет использоваться для фонов подсвечиваемых кнопок, когда "
+"пользователь проводит над ними курсором мыши"
+
+#: templates/settings.inc.php:406
+msgid "Buttons hover font color"
+msgstr "Цвет шрифта подсвечиваемых кнопок"
+
+#: templates/settings.inc.php:410
+msgid "This color will be used for buttons font when you hover above them"
+msgstr ""
+"Этот цвет будет использоваться в шрифте подсвечиваемых кнопок, над которыми "
+"пользователь проводит курсором мыши"
+
+#: templates/settings.inc.php:415
+msgid "Modals font color"
+msgstr "Цвет шрифта всплывающих диалогов"
+
+#: templates/settings.inc.php:419
+msgid ""
+"This color will be used for wpDataTable popup (filter, datepicker) fonts"
+msgstr ""
+"Этот цвет будет использоваться в шрифтах во всплывающах диалогах (фильтр, "
+"выбор даты)"
+
+#: templates/settings.inc.php:424
+msgid "Modals background color"
+msgstr "Цвет всплывающих диалогов"
+
+#: templates/settings.inc.php:428
+msgid ""
+"This color will be used for wpDataTable popup (filter, datepicker) background"
+msgstr "Этот цвет будет использоваться как фоновый для всплывающих диалогов"
+
+#: templates/settings.inc.php:433
+msgid "Overlay background color"
+msgstr "Цвет подложки всплывающих диалогов"
+
+#: templates/settings.inc.php:437
+msgid ""
+"This color will be used for overlay which appears below the plugin popups"
+msgstr ""
+"Этот цвет будет использоваться в подложке, которая покрывает сайт при "
+"появлении всплывающих диалогов"
+
+#: templates/settings.inc.php:442
+msgid "Buttons hover border color"
+msgstr "Цвет подсветки границ кнопок"
+
+#: templates/settings.inc.php:446
+msgid "This color will be used for button borders when you hover above them"
+msgstr ""
+"Этот цвет будет применяться к границам кнопок при проведении над ними "
+"курсора мыши"
+
+#: templates/settings.inc.php:451
+msgid "Buttons and inputs border radius (in px)"
+msgstr "Радиус закругления кнопок и полей ввода (в пикселях)"
+
+#: templates/settings.inc.php:455
+msgid "This is a border radius for inputs in buttons. Default is 3px."
+msgstr ""
+"Это радиус закругления для текстовых полей ввода, выпадающих списков, и "
+"диалогов. По умолчанию 3 пикселя."
+
+#: templates/settings.inc.php:460
+msgid "Table font"
+msgstr "Шрифт таблицы"
+
+#: templates/settings.inc.php:469
+msgid ""
+"This font will be used in rendered tables. Leave blank not to override "
+"default theme settings"
+msgstr ""
+"Этот шрифт будет использоваться как основной шрифт в таблице. Оставьте поле "
+"пустым, чтобы не переопределять шрифт, установленный в теме."
+
+#: templates/settings.inc.php:475
+msgid "Reset colors and fonts to default"
+msgstr "Вернуть настройки по умолчанию"
+
+#: templates/settings.inc.php:487
+msgid "Custom JS and CSS"
+msgstr "Дополнительный JS и CSS"
+
+#: templates/settings.inc.php:495
+msgid "Custom wpDataTables JS"
+msgstr "Дополнительный JS для wpDataTables"
+
+#: templates/settings.inc.php:499
+msgid ""
+"This JS will be inserted as an inline script block on every page that has a "
+"wpDataTable"
+msgstr ""
+"Этот блок Javascript будет вставлен во все страницы, где есть таблицы "
+"wpDataTables (открывающие и закрывающие script тэги не нужны)"
+
+#: templates/settings.inc.php:504
+msgid "Custom wpDataTables CSS"
+msgstr "Дополнительные правила CSS для wpDataTables"
+
+#: templates/settings.inc.php:508
+msgid ""
+"This CSS will be inserted as an inline style block on every page that has a "
+"wpDataTable"
+msgstr ""
+"Этот блок правил CSS будет вставлен во все страницы, где есть таблицы "
+"wpDataTables (открывающие и закрывающие style тэги не нужны)"
+
+#: templates/settings.inc.php:513
+msgid "Use minified wpDataTables Javascript"
+msgstr "Использовать минимизированную версию Javascript"
+
+#: templates/settings.inc.php:517
+msgid ""
+"Uncheck if you would like to make some changes to the main wpDataTables JS "
+"file (assets/js/wpdatatables/wpdatatables.js). Minified is inserted by "
+"default (better performance)"
+msgstr ""
+"Отключите, если хотите использовать полную версию JS файла. Минимизированная "
+"версия включена по умолчанию для оптимальной производительности."
+
+#: templates/settings.inc.php:683
+msgid "Settings saved successfully"
+msgstr "Настройки успешно сохранены"
+
+#: templates/settings.inc.php:685
+msgid "There was a problem saving your settings"
+msgstr "При попытке сохранить настройки произошла ошибка"
+
+#: templates/wpdatatables_excel_table_main.inc.php:24
+msgid "Search"
+msgstr "Поиск"
+
+#: templates/wpdatatables_table_main.inc.php:113
+msgid "Data saved!"
+msgstr "Данные сохранены!"
+
+#: templates/wpdatatables_table_main.inc.php:160
+msgid "Prev"
+msgstr "Пред"
+
+#: templates/wpdatatables_table_main.inc.php:162
+msgid "Apply"
+msgstr "Применить"

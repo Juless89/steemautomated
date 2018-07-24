@@ -1,0 +1,19 @@
+.wdt-datatables-admin-wrap .card.wdt-addons {
+    max-width: 100%;
+    padding: 0;
+    margin-top: 0;
+}
+
+.wdt-addons .row {
+    display: flex;
+}
+
+.wdt-addons .row .thumbnail {
+    height: 100%;
+}
+
+.wdt-addons-find-out-more {
+    padding: 10px 15px;
+    position: absolute;
+    bottom: 0;
+}

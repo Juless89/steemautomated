@@ -1,0 +1,1102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpdatatables\n"
+"POT-Creation-Date: 2014-09-22 12:41+0100\n"
+"PO-Revision-Date: 2014-11-11 14:26+0100\n"
+"Last-Translator: \n"
+"Language-Team: wpdatatables <cjbug@yandex.ru>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../../.\n"
+
+#: ../.././controllers/wdt_admin.php:14
+msgid "Table type cannot be empty"
+msgstr "Tabel type mag niet leeg zijn"
+
+#: ../.././controllers/wdt_admin.php:15 ../.././templates/settings.inc.php:599
+msgid "Error!"
+msgstr "Fout!"
+
+#: ../.././controllers/wdt_admin.php:16
+msgid "Table input data source cannot be empty"
+msgstr "Tabel invoer data bron mag niet leeg zijn"
+
+#: ../.././controllers/wdt_admin.php:17
+msgid "MySQL table name for front-end editing is not set"
+msgstr "MySQL tabel naam voor front-end aanpassingen is niet ingesteld"
+
+#: ../.././controllers/wdt_admin.php:18
+msgid ""
+"This usually happens when the MySQL query returns an empty result. Please "
+"check the results of the query in some DB manager (e.g. PHPMyAdmin)"
+msgstr ""
+"Dit gebeurt wanneer de MySQL query een leeg resultaat terugstuurd. "
+"Controleer de resultaten van de query in een DB manager (bijv. PHPMyAdmin)"
+
+#: ../.././controllers/wdt_admin.php:19
+msgid "wpDataTables backend error: "
+msgstr "wpDatatables backend fout:"
+
+#: ../.././controllers/wdt_admin.php:20
+msgid "Table saved successfully!"
+msgstr "Tabel succesvol opgeslagen!"
+
+#: ../.././controllers/wdt_admin.php:21 ../.././templates/settings.inc.php:597
+msgid "Success!"
+msgstr "Succes!"
+
+#: ../.././controllers/wdt_admin.php:22
+msgid ""
+"This error is usually occuring because you are trying to load file which is "
+"too large. Please try another datasource, use a smaller file."
+msgstr ""
+"Deze fout ontstaat waarschijnlijk doordat je een te groot bestand probeert "
+"te laden. Probeer een andere databron."
+
+#: ../.././controllers/wdt_admin.php:23
+msgid "ID column for front-end editing feature is not set"
+msgstr "ID kolom voor front-end aanpassingen is niet ingesteld"
+
+#: ../.././controllers/wdt_admin.php:24
+msgid "Are you sure?"
+msgstr "Weet je het zeker?"
+
+#: ../.././controllers/wdt_admin.php:25
+msgid "Are you sure? You will lose unsaved changes!"
+msgstr ""
+"Weet je het zeker? Je verliest de aanpassingen die niet opgeslagen zijn!"
+
+#: ../.././controllers/wdt_admin.php:26
+msgid "Use in wpDataTable"
+msgstr "Gebruik in wpDataTable"
+
+#: ../.././controllers/wdt_admin.php:27
+msgid "Select Excel or CSV file"
+msgstr "Selecteer Excel of CSV besand"
+
+#: ../.././controllers/wdt_admin.php:28
+msgid ""
+"Complicated queries (with WHERE clause, conditions, or with JOINs) are not "
+"supported together with server-side processing. Please store the query in a "
+"MySQL view and then create a wpDataTable based on the view."
+msgstr ""
+
+#: ../.././controllers/wdt_admin.php:355 ../.././controllers/wdt_admin.php:439
+#: ../.././controllers/wdt_admin.php:477
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Je hebt niet voldoende permissies om de pagina te laden."
+
+#: ../.././controllers/wdt_admin.php:382
+msgid "Edit wpDataTable"
+msgstr "wpDataTable aanpassen"
+
+#: ../.././controllers/wdt_functions.php:255
+msgid "wpDataTable with provided ID not found!"
+msgstr "wpDataTable met geleverde ID niet gevonden!"
+
+#: ../.././source/class.filterwidget.php:39
+msgid "New title"
+msgstr "Nieuwe titel"
+
+#: ../.././source/class.filterwidget.php:43
+msgid "Title:"
+msgstr "Naam:"
+
+#: ../.././source/class.wdtbrowsetable.php:58
+msgid "Duplicate"
+msgstr "Dubbel"
+
+#: ../.././source/class.wdtbrowsetable.php:72
+#: ../.././templates/plain_html_table.inc.php:79
+#: ../.././templates/plain_html_table.inc.php:83
+msgid "Edit"
+msgstr "Aanpassen"
+
+#: ../.././source/class.wdtbrowsetable.php:73
+#: ../.././templates/edit_table.inc.php:15
+#: ../.././templates/plain_html_table.inc.php:81
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: ../.././source/class.wdtbrowsetable.php:94
+msgid "No wpDataTables in the system yet."
+msgstr "Nog geen wpDataTables in het systeem"
+
+#: ../.././templates/browse.inc.php:6 ../.././templates/edit_table.inc.php:11
+#: ../.././templates/settings.inc.php:10
+msgid "Please refer to"
+msgstr "Graag doorsturen naar"
+
+#: ../.././templates/browse.inc.php:6 ../.././templates/edit_table.inc.php:11
+#: ../.././templates/settings.inc.php:10
+msgid "wpDataTables documentation"
+msgstr "wpDataTables documentatie"
+
+#: ../.././templates/browse.inc.php:6 ../.././templates/edit_table.inc.php:11
+#: ../.././templates/settings.inc.php:10
+msgid "if you have some questions or problems with the plugin."
+msgstr "als je vragen of problemen hebt met deze plugin."
+
+#: ../.././templates/browse.inc.php:6
+msgid "Add new"
+msgstr "Nieuwe toevoegen"
+
+#: ../.././templates/browse.inc.php:15
+msgid "New table title"
+msgstr "Nieuwe tabelnaam"
+
+#: ../.././templates/browse.inc.php:26 ../.././templates/browse.inc.php:63
+msgid "Are you sure"
+msgstr "Zeker weten?"
+
+#: ../.././templates/browse.inc.php:35
+msgid "Duplicate table"
+msgstr "Dupliceer tabel"
+
+#: ../.././templates/browse.inc.php:36
+msgid "copy"
+msgstr "kopieer"
+
+#: ../.././templates/edit_table.inc.php:19
+msgid "To insert the table on your page use the shortcode"
+msgstr "Om de tabel op je pagina te plaatsen, gebruik de volgende shortcode"
+
+#: ../.././templates/edit_table.inc.php:26
+#: ../.././templates/edit_table.inc.php:277
+#: ../.././templates/settings.inc.php:15
+#: ../.././templates/settings.inc.php:211
+#: ../.././templates/settings.inc.php:453
+msgid "Click to toggle"
+msgstr "Klik om te openen"
+
+#: ../.././templates/edit_table.inc.php:28
+msgid "Data source and main settings"
+msgstr "Data bron en hoofd instellingen"
+
+#: ../.././templates/edit_table.inc.php:30
+#: ../.././templates/edit_table.inc.php:262
+#: ../.././templates/edit_table.inc.php:281
+#: ../.././templates/edit_table.inc.php:303
+msgid "Save"
+msgstr "Opslaan"
+
+#: ../.././templates/edit_table.inc.php:31
+#: ../.././templates/edit_table.inc.php:263
+#: ../.././templates/edit_table.inc.php:283
+#: ../.././templates/edit_table.inc.php:305
+msgid "Preview"
+msgstr "Preview"
+
+#: ../.././templates/edit_table.inc.php:32
+#: ../.././templates/edit_table.inc.php:264
+#: ../.././templates/edit_table.inc.php:284
+#: ../.././templates/edit_table.inc.php:306
+msgid "Close"
+msgstr "Sluiten"
+
+#: ../.././templates/edit_table.inc.php:42
+msgid "General setup"
+msgstr "Algemene setup"
+
+#: ../.././templates/edit_table.inc.php:54
+msgid "Table title"
+msgstr "Tabel titel"
+
+#: ../.././templates/edit_table.inc.php:58
+msgid "If you want to display a header above your table, enter it here"
+msgstr "Als je een header boven je tabel wilt weergeven, voer deze hier dan in"
+
+#: ../.././templates/edit_table.inc.php:63
+msgid "Table type"
+msgstr "Tabel type"
+
+#: ../.././templates/edit_table.inc.php:67
+msgid "Select a table type..."
+msgstr "Selecteer een tabel type..."
+
+#: ../.././templates/edit_table.inc.php:68
+#: ../.././templates/edit_table.inc.php:80
+msgid "MySQL query"
+msgstr "MySQL query"
+
+#: ../.././templates/edit_table.inc.php:69
+msgid "CSV file"
+msgstr "CSV bestand"
+
+#: ../.././templates/edit_table.inc.php:70
+msgid "Excel file"
+msgstr "Excel bestand"
+
+#: ../.././templates/edit_table.inc.php:71
+msgid "XML file"
+msgstr "XML bestand"
+
+#: ../.././templates/edit_table.inc.php:72
+msgid "JSON file"
+msgstr "JSON bestand"
+
+#: ../.././templates/edit_table.inc.php:73
+msgid "Serialized PHP array"
+msgstr "Serialized PHP array"
+
+#: ../.././templates/edit_table.inc.php:75
+msgid "Choose a type of input source for your table"
+msgstr "Kies een type inputbron voor jouw tabel"
+
+#: ../.././templates/edit_table.inc.php:80
+msgid ""
+"Enter MySQL SELECT query that will return the data for your wpDataTable. "
+"Make sure that this query works and returns data. If you are not sure what "
+"is a MySQL query please consider using Excel data source, or spend some time "
+"reading MySQL manuals"
+msgstr ""
+
+#: ../.././templates/edit_table.inc.php:86
+msgid ""
+"Enter the text of your MySQL query here. You can use %CURRENT_USER_ID% "
+"placeholder that will be replaced with the current user's ID on execution"
+msgstr ""
+
+#: ../.././templates/edit_table.inc.php:91
+msgid "Input file or URL"
+msgstr "Voer bestand of URL in"
+
+#: ../.././templates/edit_table.inc.php:98
+msgid "Upload your file or provide the full URL here"
+msgstr "Upload je bestand of geef de volledige URL hier in"
+
+#: ../.././templates/edit_table.inc.php:98
+msgid "For CSV or Excel input sources only uploaded files are supported"
+msgstr "Voor CSV of Excel input bronnen, werken alleen geuploade bestanden "
+
+#: ../.././templates/edit_table.inc.php:103
+msgid "Front-end editing"
+msgstr "Front-end aanpassen"
+
+#: ../.././templates/edit_table.inc.php:107
+msgid "Make table editable from the front-end"
+msgstr "Maak tabel aanpasbaar vanaf de front-end"
+
+#: ../.././templates/edit_table.inc.php:107
+msgid ""
+"Works only for MySQL-based tables with server-side processing, and can only "
+"update one table on MySQL side"
+msgstr ""
+
+#: ../.././templates/edit_table.inc.php:112
+msgid "MySQL table name for editing"
+msgstr "MySQL tabel naam voor aanpassen"
+
+#: ../.././templates/edit_table.inc.php:118
+msgid "Name of the MySQL table which will be used for updates from front-end"
+msgstr ""
+"Naam van de MySQL tabel welke gebruikt wordt voor aanpassingen vanaf de "
+"front-end"
+
+#: ../.././templates/edit_table.inc.php:123
+#: ../.././templates/edit_table.inc.php:324
+msgid "Editor roles"
+msgstr "Editor rollen"
+
+#: ../.././templates/edit_table.inc.php:127
+msgid "Choose roles"
+msgstr "Kies rollen"
+
+#: ../.././templates/edit_table.inc.php:128
+msgid ""
+"Roles which are allowed to edit the table (leave blank to alllow editing for "
+"everyone)"
+msgstr ""
+"Rollen welke de tabel mogen aanpassen (blanco laten zodat iedereen "
+"aanpassingen kan doen)"
+
+#: ../.././templates/edit_table.inc.php:133
+msgid "Additional settings"
+msgstr "Extra instellingen"
+
+#: ../.././templates/edit_table.inc.php:138
+msgid "Server-side processing"
+msgstr "Server-side verwerking"
+
+#: ../.././templates/edit_table.inc.php:142
+msgid ""
+"Server-side processing for MySQL-based tables. Required for front-end editing"
+msgstr ""
+"Server-side verwerking voor MySQL-gebaseerde tabellen. Verplicht als je "
+"front-end editing wilt gebruiken."
+
+#: ../.././templates/edit_table.inc.php:147
+msgid "Responsive"
+msgstr "Responsive"
+
+#: ../.././templates/edit_table.inc.php:151
+msgid ""
+"Check this checkbox if you would like this table to be responsive - display "
+"differently on desktops, tablets and mobiles"
+msgstr "Aanklikken als je wilt dat de tabel responsive wordt weergegeven"
+
+#: ../.././templates/edit_table.inc.php:156
+msgid "Hide table until page is completely loaded"
+msgstr "Verberg tabel tot de pagina volledig geladen is"
+
+#: ../.././templates/edit_table.inc.php:160
+msgid ""
+"Check this checkbox if you would prevent table from showing until the page "
+"loads completely. May be useful for slowly loading pages"
+msgstr ""
+"Aanklikken als je niet wilt dat de tabel geladen wordt tot de pagina is "
+"geladen. Kan handig zijn als de pagina anders langzaam laadt."
+
+#: ../.././templates/edit_table.inc.php:165
+msgid "Advanced filtering"
+msgstr "Geavanceerde filtering"
+
+#: ../.././templates/edit_table.inc.php:169
+msgid ""
+"Check this checkbox if you would like to have a filter below each column"
+msgstr "Aanklikken als je een filter onder iedere kolom wilt"
+
+#: ../.././templates/edit_table.inc.php:174
+msgid "Filter in form"
+msgstr "Filter in formulier"
+
+#: ../.././templates/edit_table.inc.php:178
+msgid ""
+"Check this checkbox if you would like to have the advanced filter in a form"
+msgstr "Aanklikken als je een geavanceerde filter in een formulier wilt hebben"
+
+#: ../.././templates/edit_table.inc.php:183
+msgid "Table tools"
+msgstr "Tabel tools"
+
+#: ../.././templates/edit_table.inc.php:187
+msgid ""
+"Check this checkbox if you would like to have the table tools (copy, save to "
+"excel, save to CSV, etc) enabled for this table"
+msgstr ""
+"Aanklikken als je wilt dat de tabel tools weergegeven worden (kopieren, "
+"opslaan naar excel etc.)"
+
+#: ../.././templates/edit_table.inc.php:192
+msgid "Enable sorting"
+msgstr "Sorteren inschakelen"
+
+#: ../.././templates/edit_table.inc.php:196
+msgid ""
+"Check this checkbox if you would like to have sorting feature in your table"
+msgstr "Aanklikken als je een sorteerfunctie wilt hebben"
+
+#: ../.././templates/edit_table.inc.php:201
+msgid "Limit table layout"
+msgstr "Limiteer tabel layout"
+
+#: ../.././templates/edit_table.inc.php:205
+#, php-format
+msgid ""
+"Check this checkbox if you would like to limit the table's width to 100% of "
+"parent container (div)"
+msgstr ""
+
+#: ../.././templates/edit_table.inc.php:210
+msgid "Word wrap"
+msgstr "Woord wrap"
+
+#: ../.././templates/edit_table.inc.php:214
+msgid ""
+"Check this checkbox if you would like words in cells to wrap and to extend "
+"row's height. Leave unchecked if you want to leave one-line row heights."
+msgstr ""
+"Aanklikken als je wilt dat de tabel zijn cellen aan de lengte en grote van "
+"woorden worden aangepast. Niet aanklikken als je one-line rijhoogte's wilt "
+"hebben."
+
+#: ../.././templates/edit_table.inc.php:219
+msgid "Display length"
+msgstr "Display lengte"
+
+#: ../.././templates/edit_table.inc.php:223
+#: ../.././templates/edit_table.inc.php:224
+#: ../.././templates/edit_table.inc.php:225
+#: ../.././templates/edit_table.inc.php:226
+msgid "entries"
+msgstr "data"
+
+#: ../.././templates/edit_table.inc.php:227
+msgid "All"
+msgstr "Alles"
+
+#: ../.././templates/edit_table.inc.php:229
+msgid ""
+"This options defines the default number of entries on the page for this table"
+msgstr ""
+"Deze optie geeft het default aantal data op de pagina voor deze tabel aan"
+
+#: ../.././templates/edit_table.inc.php:234
+msgid "Add a chart"
+msgstr "Voeg een grafiek toe"
+
+#: ../.././templates/edit_table.inc.php:238
+msgid "No chart"
+msgstr "Geen grafiek"
+
+#: ../.././templates/edit_table.inc.php:239
+msgid "Area chart"
+msgstr "Omgevingsgrafiek"
+
+#: ../.././templates/edit_table.inc.php:240
+msgid "Bar chart"
+msgstr "Staafgrafiek"
+
+#: ../.././templates/edit_table.inc.php:241
+msgid "Column chart"
+msgstr "Kolomgrafiek"
+
+#: ../.././templates/edit_table.inc.php:242
+msgid "Line chart"
+msgstr "Lijngrafiek"
+
+#: ../.././templates/edit_table.inc.php:243
+msgid "Pie chart"
+msgstr "Taartdiagram"
+
+#: ../.././templates/edit_table.inc.php:245
+msgid ""
+"Select one of the options if you would like to render a chart for this table"
+msgstr ""
+"Selecteer 1 van deze opties als je wilt dat er een grafiek wordt gemaakt van "
+"deze tabel"
+
+#: ../.././templates/edit_table.inc.php:250
+msgid "Chart title"
+msgstr "Grafiek titel"
+
+#: ../.././templates/edit_table.inc.php:256
+msgid "Enter a title if you would like to display a title above your chart"
+msgstr "Vul de titel in welke boven je grafiek wordt getoond"
+
+#: ../.././templates/edit_table.inc.php:279
+msgid "Optional column setup"
+msgstr "Optionele kolom setup"
+
+#: ../.././templates/edit_table.inc.php:282
+#: ../.././templates/edit_table.inc.php:304
+msgid "Ungroup"
+msgstr "Degroeperen"
+
+#: ../.././templates/edit_table.inc.php:293
+msgid ""
+"You can change the column settings in this step, but this is not required, "
+"since default options have already been generated for you"
+msgstr ""
+"Je kunt de kolom instellingen hier aanpassen, dit is echter niet nodig "
+"aangezien de default opties al zijn aangemaakt."
+
+#: ../.././templates/edit_table.inc.php:294
+msgid "Warning"
+msgstr "Waarschuwing"
+
+#: ../.././templates/edit_table.inc.php:294
+msgid ""
+"If you change the table settings, save the table before modifying the column "
+"settings, because the column set can be changed and you may lose your changes"
+msgstr ""
+"Als je de tabel instellingen aanpast, sla deze dan op voor je de "
+"kolominstellingen aanpast."
+
+#: ../.././templates/edit_table.inc.php:325
+msgid ""
+"Choose user roles allowed to edit this table (leave blank to alllow editing "
+"for everyone):"
+msgstr ""
+"Rollen welke de tabel mogen aanpassen (blanco laten zodat iedereen "
+"aanpassingen kan doen)"
+
+#: ../.././templates/edit_table.inc.php:368
+msgid "Displayed header"
+msgstr "Weergegeven header"
+
+#: ../.././templates/edit_table.inc.php:376
+msgid "CSS class(es)"
+msgstr "CSS class(es)"
+
+#: ../.././templates/edit_table.inc.php:384
+msgid "Possible values"
+msgstr "Mogelijke waardes"
+
+#: ../.././templates/edit_table.inc.php:386
+msgid "Separate with"
+msgstr "Scheiden met"
+
+#: ../.././templates/edit_table.inc.php:386
+msgid "Used in advanced filterdropdown and in the editor dialog"
+msgstr "Gebruikt in geavanceerd filterdropdown en in het editor scherm"
+
+#: ../.././templates/edit_table.inc.php:394
+msgid "Default value(s)"
+msgstr "Standaardwaarde(n)"
+
+#: ../.././templates/edit_table.inc.php:396
+msgid ""
+"Predefined filter value, default editor input value. Separate multiple "
+"values with \"|\". Placeholders supported."
+msgstr ""
+
+#: ../.././templates/edit_table.inc.php:404
+msgid "Filter type"
+msgstr "Filter type"
+
+#: ../.././templates/edit_table.inc.php:414
+msgid "Column type"
+msgstr "Kolom type"
+
+#: ../.././templates/edit_table.inc.php:425
+msgid "Editor input type"
+msgstr "Editor input type"
+
+#: ../.././templates/edit_table.inc.php:435
+msgid "ID column"
+msgstr "ID kolom"
+
+#: ../.././templates/edit_table.inc.php:447
+msgid "Hide on tablets"
+msgstr "Verbergen op tablets"
+
+#: ../.././templates/edit_table.inc.php:458
+msgid "Hide on mobiles"
+msgstr "Verbergen op mobiele apparaten"
+
+#: ../.././templates/edit_table.inc.php:469
+msgid "Group column"
+msgstr "Groep kolom"
+
+#: ../.././templates/edit_table.inc.php:480
+msgid "Default sort column"
+msgstr "Standaard sortering kolom"
+
+#: ../.././templates/edit_table.inc.php:485
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: ../.././templates/edit_table.inc.php:487
+msgid "Descending"
+msgstr "Aflopend"
+
+#: ../.././templates/edit_table.inc.php:493
+msgid "Add to chart"
+msgstr "Toevoegen aan tabel/grafiek"
+
+#: ../.././templates/edit_table.inc.php:504
+msgid "Chart hor. axis"
+msgstr "Grafiek hor. as"
+
+#: ../.././templates/edit_table.inc.php:512
+msgid "Column position"
+msgstr "Kolom positie"
+
+#: ../.././templates/edit_table.inc.php:520
+msgid "Width"
+msgstr "Breedte"
+
+#: ../.././templates/edit_table.inc.php:522
+#, php-format
+msgid ""
+"Input width for column (in percents with % or pixels without \"px\"). Leave "
+"blank if you want to leave auto width"
+msgstr ""
+"geef de breedte van de kolom in (in % of pixels zonder \"px\"). Blanco laten "
+"voor automatische breedtestelling"
+
+#: ../.././templates/edit_table.inc.php:530
+msgid "Visible"
+msgstr "Zichtbaar"
+
+#: ../.././templates/filter_widget.inc.php:3
+msgid "Clear filters"
+msgstr "Leeg filters"
+
+#: ../.././templates/plain_html_table.inc.php:80
+msgid "New"
+msgstr "Nieuw"
+
+#: ../.././templates/plain_html_table.inc.php:108
+msgid "Upload attachment"
+msgstr "Upload bijlage"
+
+#: ../.././templates/plain_html_table.inc.php:133
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: ../.././templates/plain_html_table.inc.php:134
+msgid "Prev"
+msgstr "Vorige"
+
+#: ../.././templates/plain_html_table.inc.php:135
+msgid "Next"
+msgstr "Volgende"
+
+#: ../.././templates/plain_html_table.inc.php:136
+msgid "Apply"
+msgstr "Toepassen"
+
+#: ../.././templates/plain_html_table.inc.php:137
+msgid "OK"
+msgstr "OK"
+
+#: ../.././templates/settings.inc.php:11
+msgid "wpDataTables settings"
+msgstr "wpDataTables instellingen"
+
+#: ../.././templates/settings.inc.php:17
+msgid "Main settings"
+msgstr "Hoofdinstellingen"
+
+#: ../.././templates/settings.inc.php:24
+msgid "Use separate MySQL connection"
+msgstr "Gebruik losse MySQL verbinding"
+
+#: ../.././templates/settings.inc.php:28
+msgid ""
+"If this checkbox is checked, wpDataTables will use its own connection to "
+"MySQL bases. In other case it will use the main WordPress MySQL connection."
+msgstr ""
+"Laat wpDataTables zijn eigen MySQL connectie gebruiken. Standaard wordt de "
+"Wordpress MySQL verbinding gebruikt."
+
+#: ../.././templates/settings.inc.php:33
+msgid "MySQL host"
+msgstr "MySQL host"
+
+#: ../.././templates/settings.inc.php:37
+msgid "MySQL host address"
+msgstr "MySQL host adres"
+
+#: ../.././templates/settings.inc.php:42
+msgid "MySQL database"
+msgstr "MySQL database"
+
+#: ../.././templates/settings.inc.php:46
+msgid "MySQL database name"
+msgstr "MySQL database naam"
+
+#: ../.././templates/settings.inc.php:51
+msgid "MySQL user"
+msgstr "MySQL gebruiker"
+
+#: ../.././templates/settings.inc.php:55
+msgid "MySQL username for the connection"
+msgstr "MySQL gebruikersnaam voor de verbinding"
+
+#: ../.././templates/settings.inc.php:60
+msgid "MySQL password"
+msgstr "MySQL wachtwoord"
+
+#: ../.././templates/settings.inc.php:64
+msgid "MySQL password for the provided user"
+msgstr "MySQL wachtwoord voor de gebruiker"
+
+#: ../.././templates/settings.inc.php:69
+msgid "Interface language"
+msgstr "Interface taal"
+
+#: ../.././templates/settings.inc.php:80
+msgid "Pick the language which will be used in tables interface"
+msgstr "Kies de taal welke in de tabel zijn interface wordt gebruikt"
+
+#: ../.././templates/settings.inc.php:85
+msgid "Tables per admin page"
+msgstr "Tabellen per adminpagina"
+
+#: ../.././templates/settings.inc.php:93
+msgid "How many tables to show in the browse page"
+msgstr "Hoeveel tabellen moeten weergeven worden op de browse pagina?"
+
+#: ../.././templates/settings.inc.php:98
+msgid "Render charts"
+msgstr "Render grafieken/diagrammen"
+
+#: ../.././templates/settings.inc.php:102
+msgid "Above the table"
+msgstr "Boven de grafiek/diagram"
+
+#: ../.././templates/settings.inc.php:103
+msgid "Below the table"
+msgstr "Onder de grafiek/diagram"
+
+#: ../.././templates/settings.inc.php:105
+msgid "Choose where you would like to render the charts"
+msgstr "Kies waar je de grafiek/diagram wilt hebben"
+
+#: ../.././templates/settings.inc.php:110
+msgid "Base skin"
+msgstr "Standaard skin"
+
+#: ../.././templates/settings.inc.php:114
+#: ../.././templates/settings.inc.php:115
+msgid "Skin"
+msgstr "Skin"
+
+#: ../.././templates/settings.inc.php:117
+msgid "Choose the base skin for the plugin"
+msgstr "Kies een skin voor de plugin"
+
+#: ../.././templates/settings.inc.php:122
+msgid "Render advanced filter"
+msgstr "Render geavanceerd filter"
+
+#: ../.././templates/settings.inc.php:126
+msgid "In the header"
+msgstr "In de header"
+
+#: ../.././templates/settings.inc.php:127
+msgid "In the footer"
+msgstr "In de footer"
+
+#: ../.././templates/settings.inc.php:129
+msgid ""
+"Choose where you would like to render the advanced filter for tables where "
+"enabled"
+msgstr ""
+"Kies waar je wilt dat het geavanceerde filter voor de tabel wordt gerenderd "
+"als deze geactiveerd is"
+
+#: ../.././templates/settings.inc.php:134
+msgid "Date format"
+msgstr "Datum format"
+
+#: ../.././templates/settings.inc.php:146
+msgid "Pick the date format to use in date column type"
+msgstr "Kies de datumformat welke in de datumkolom wordt gebruikt"
+
+#: ../.././templates/settings.inc.php:151
+msgid "Number format"
+msgstr "Nummer format"
+
+#: ../.././templates/settings.inc.php:158
+msgid "Pick the number format (thousands and decimals separator)"
+msgstr "Kies de nummerformat (duizenden en decimalen scheider)"
+
+#: ../.././templates/settings.inc.php:163
+msgid "Decimal places"
+msgstr "Decimaal plaatsen"
+
+#: ../.././templates/settings.inc.php:167
+msgid "Define the amount of decimal places for the float numbers"
+msgstr "Kies het aantal decimaalplaatsen voor de zwevende getallen"
+
+#: ../.././templates/settings.inc.php:172
+msgid "Align numbers to the right"
+msgstr "Sorteer nummers aan de rechter kant"
+
+#: ../.././templates/settings.inc.php:176
+msgid ""
+"If this checkbox is checked all numerical values will be aligned to the "
+"right of the cell"
+msgstr ""
+"Aanklikken zorgt er voor dat alle nummerwaardes aan de rechterkant worden "
+"gesorteerd"
+
+#: ../.././templates/settings.inc.php:182
+msgid "Tablet width"
+msgstr "Tablet breedte"
+
+#: ../.././templates/settings.inc.php:186
+msgid ""
+"Here you can specify width of the screen (in pixels) that will be treated as "
+"a tablet. You can set it wider if you want responsive effect on desktops."
+msgstr ""
+
+#: ../.././templates/settings.inc.php:192
+msgid "Mobile width"
+msgstr "Mobiele breedte"
+
+#: ../.././templates/settings.inc.php:196
+msgid "Here you can specify width (in pixels) will be treated as a mobile."
+msgstr ""
+
+#: ../.././templates/settings.inc.php:202
+#: ../.././templates/settings.inc.php:442
+#: ../.././templates/settings.inc.php:481
+msgid "Save options"
+msgstr "Opties voor opslaan"
+
+#: ../.././templates/settings.inc.php:213
+msgid "Color and font settings"
+msgstr "Kleur en font instellingen"
+
+#: ../.././templates/settings.inc.php:216
+#: ../.././templates/settings.inc.php:458
+msgid "Leave the setting blank to use default value"
+msgstr "Leeg laten voor standaardwaardes"
+
+#: ../.././templates/settings.inc.php:221
+msgid "Table font color"
+msgstr "Tabel font kleur"
+
+#: ../.././templates/settings.inc.php:225
+msgid "This color is used for the main font in table cells"
+msgstr "Deze kleur wordt gebruikt voor de hoofdfont in de tabelcellen"
+
+#: ../.././templates/settings.inc.php:230
+msgid "Header background color"
+msgstr "Header achtergrond kleur"
+
+#: ../.././templates/settings.inc.php:234
+msgid "The color is used for background of the table header"
+msgstr "Deze kleur wordt gebruikt voor de achtergrond van de tabel header"
+
+#: ../.././templates/settings.inc.php:239
+msgid "Header border color"
+msgstr "Header border kleur"
+
+#: ../.././templates/settings.inc.php:243
+msgid "This color is used for the border in the table header"
+msgstr "Deze kleur wordt gebruikt voor de border rondom de tabel header"
+
+#: ../.././templates/settings.inc.php:248
+msgid "Header font color"
+msgstr "Header font kleur"
+
+#: ../.././templates/settings.inc.php:252
+msgid "This color is used for the font in the table header"
+msgstr "Deze kleur wordt gebruikt voor de font in de tabel header"
+
+#: ../.././templates/settings.inc.php:257
+msgid "Header active and hover color"
+msgstr "Header actef en hover kleur"
+
+#: ../.././templates/settings.inc.php:261
+msgid ""
+"This color is used when you hover the mouse above the table header, or when "
+"you choose a column"
+msgstr ""
+"Deze kleur wordt gebruikt als je met je muis boven de tabel header hoovert, "
+"of wanneer je een kolom kiest"
+
+#: ../.././templates/settings.inc.php:266
+msgid "Table inner border color"
+msgstr "Binnenste borderkleur van de tabel"
+
+#: ../.././templates/settings.inc.php:270
+msgid "This color is used for the inner border in the table between cells"
+msgstr ""
+"Deze kleur wordt gebruikt voor de binnenste border in de tabel, tussen de "
+"cellen in"
+
+#: ../.././templates/settings.inc.php:275
+msgid "Table outer border color"
+msgstr "Tabel buitenste border kleur"
+
+#: ../.././templates/settings.inc.php:279
+msgid "This color is used for the outer border of the whole table body"
+msgstr ""
+"Deze kleur wordt gebruikt voor de buitenste border, om de hele tabel heen"
+
+#: ../.././templates/settings.inc.php:284
+msgid "Even row background color"
+msgstr "Even rijen achtergrond kleur"
+
+#: ../.././templates/settings.inc.php:288
+msgid "This color is used for for background in even rows"
+msgstr "Deze kleur wordt gebruikt voor de achtergrond van de even rijen"
+
+#: ../.././templates/settings.inc.php:293
+msgid "Odd row background color"
+msgstr "Oneven rijen achtergrond kleur"
+
+#: ../.././templates/settings.inc.php:297
+msgid "This color is used for for background in odd rows"
+msgstr "Deze kleur wordt gebruikt voor de achtergrond van de oneven rijen"
+
+#: ../.././templates/settings.inc.php:302
+msgid "Hover row color"
+msgstr "Hover rij kleur"
+
+#: ../.././templates/settings.inc.php:306
+msgid ""
+"This color is used for to highlight the row when you hover your mouse above "
+"it"
+msgstr ""
+"Deze kleur wordt gebruikt voor het highlighten van de rij als je je muis "
+"erboven houdt"
+
+#: ../.././templates/settings.inc.php:311
+msgid "Cell color in active (sorted) columns for even rows"
+msgstr "Celkleur in actieve (gesorteerde) klommen voor even rijen"
+
+#: ../.././templates/settings.inc.php:315
+msgid ""
+"This color is used for background in cells which are in the active columns "
+"(columns used for sorting) in even rows"
+msgstr ""
+"Deze kleur wordt gebruikt voor de achtergrond van de cellen in actieve "
+"kolommen (deze die voor het sorteren worden gebruikt) in even rijen"
+
+#: ../.././templates/settings.inc.php:320
+msgid "Cell color in active (sorted) columns for odd rows"
+msgstr "Celkleur in actieve (gesorteerde) klommen voor oneven rijen"
+
+#: ../.././templates/settings.inc.php:324
+msgid ""
+"This color is used for background in cells which are in the active columns "
+"(columns used for sorting) in odd rows"
+msgstr ""
+"Deze kleur wordt gebruikt voor de achtergrond van de cellen in actieve "
+"kolommen (deze die voor het sorteren worden gebruikt) in oneven rijen"
+
+#: ../.././templates/settings.inc.php:329
+msgid "Backround color for selected rows"
+msgstr "Achtergrond kleur voor geselecteerde rijen"
+
+#: ../.././templates/settings.inc.php:333
+msgid "This color is used for background in selected rows"
+msgstr ""
+"Deze kleur wordt gebruikt voor de achtergrond van de geselecteerde rijen"
+
+#: ../.././templates/settings.inc.php:338
+msgid "Buttons background color"
+msgstr "Achtergrondkleur van de Buttons"
+
+#: ../.././templates/settings.inc.php:342
+msgid "This color is used for background in buttons"
+msgstr "Deze kleur wordt gebruikt voor de achtergrondkleur van de Buttons"
+
+#: ../.././templates/settings.inc.php:347
+msgid "Buttons border color"
+msgstr "Buttons border kleur"
+
+#: ../.././templates/settings.inc.php:351
+msgid "This color is used for border in buttons"
+msgstr "Deze kleur wordt gebruikt voor de border van de buttons"
+
+#: ../.././templates/settings.inc.php:356
+msgid "Buttons font color"
+msgstr "Bottons font kleur"
+
+#: ../.././templates/settings.inc.php:360
+msgid "This color is used for font in buttons"
+msgstr "Deze kleur wordt gebruikt voor de font op de Buttons"
+
+#: ../.././templates/settings.inc.php:365
+msgid "Buttons background hover color"
+msgstr "Buttons gehooverd achtergrondkleur"
+
+#: ../.././templates/settings.inc.php:369
+msgid ""
+"This color will be used for button backgrounds when you hover above them"
+msgstr ""
+"Deze kleur wordt getoond als achtergrond van de Button als je je muis er "
+"boven houdt."
+
+#: ../.././templates/settings.inc.php:374
+msgid "Buttons hover font color"
+msgstr "Buttons hoover font kleur"
+
+#: ../.././templates/settings.inc.php:378
+msgid "This color will be used for buttons font when you hover above them"
+msgstr ""
+"Deze kleur wordt getoond als fontkleur van de Button als je je muis er boven "
+"houdt."
+
+#: ../.././templates/settings.inc.php:383
+msgid "Modals font color"
+msgstr "Modals fontkleur"
+
+#: ../.././templates/settings.inc.php:387
+msgid ""
+"This color will be used for wpDataTable popup (filter, datepicker) fonts"
+msgstr ""
+"Deze kleur wordt gebruikt voor de wpDataTable popup (filter, datumkiezer) "
+"fonts"
+
+#: ../.././templates/settings.inc.php:392
+msgid "Modals background color"
+msgstr "Modals achtergrondkleur"
+
+#: ../.././templates/settings.inc.php:396
+msgid ""
+"This color will be used for wpDataTable popup (filter, datepicker) background"
+msgstr ""
+"Deze kleur wordt gebruikt voor de wpDataTable popup (filter, datumkiezer) "
+"achtergrond"
+
+#: ../.././templates/settings.inc.php:401
+msgid "Overlay background color"
+msgstr "Overlay achtergrondkleur"
+
+#: ../.././templates/settings.inc.php:405
+msgid ""
+"This color will be used for overlay which appears below the plugin popups"
+msgstr ""
+"Deze kleur wordt gebruikt voor de overlay, welke getoond wordt onder de "
+"plugin popups"
+
+#: ../.././templates/settings.inc.php:410
+msgid "Buttons hover border color"
+msgstr "Buttons hoover achtergrondkleur"
+
+#: ../.././templates/settings.inc.php:414
+msgid "This color will be used for button borders when you hover above them"
+msgstr ""
+"Deze kleur wordt gebruikt voor de border als je met je muis boven de Button "
+"zweeft"
+
+#: ../.././templates/settings.inc.php:419
+msgid "Buttons and inputs border radius (in px)"
+msgstr "Buttons en imputs border radius (in px)"
+
+#: ../.././templates/settings.inc.php:423
+msgid "This is a border radius for inputs in buttons. Default is 3px."
+msgstr "Border radius voor Buttons. Standaard is 3px."
+
+#: ../.././templates/settings.inc.php:428
+msgid "Table font"
+msgstr "Tabel font"
+
+#: ../.././templates/settings.inc.php:437
+msgid ""
+"This font will be used in rendered tables. Leave blank not to override "
+"default theme settings"
+msgstr ""
+"Deze font wordt gebruikt om tabellen te renderen. Blanco laten om standaard "
+"thema instellingen te gebruiken"
+
+#: ../.././templates/settings.inc.php:443
+msgid "Reset colors and fonts to default"
+msgstr "Reset kleuren en fonts naar standaard"
+
+#: ../.././templates/settings.inc.php:455
+msgid "Custom JS and CSS"
+msgstr "Custom JS en CSS"
+
+#: ../.././templates/settings.inc.php:463
+msgid "Custom wpDataTables JS"
+msgstr "Custom wpDataTables JS"
+
+#: ../.././templates/settings.inc.php:467
+msgid ""
+"This JS will be inserted as an inline script block on every page that has a "
+"wpDataTable"
+msgstr ""
+
+#: ../.././templates/settings.inc.php:472
+msgid "Custom wpDataTables CSS"
+msgstr ""
+
+#: ../.././templates/settings.inc.php:476
+msgid ""
+"This CSS will be inserted as an inline style block on every page that has a "
+"wpDataTable"
+msgstr ""
+
+#: ../.././templates/settings.inc.php:597
+msgid "Settings saved successfully"
+msgstr "Instellingen zijn opgeslagen"
+
+#: ../.././templates/settings.inc.php:599
+msgid "There was a problem saving your settings"
+msgstr "Er was een probleem bij het opslaan van je instellingen"
