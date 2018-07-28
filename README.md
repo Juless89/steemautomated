@@ -2,68 +2,18 @@
 ---
 ## About
 
-The fully automated STEEM voter will automatically upvote users that are added to the list. For each user the upvote weight and the amount of upvotes per day can be set. A global delay for all upvotes is also configurable.
+The fully automated STEEM voter will automatically upvote authors on the STEEM Blockchain. For each user the upvote weight, the amount of upvotes per day and a delay can be set. This is an open source project contributed to [Utopian](https://join.utopian.io/). And is live at [SteemAutomated](https://steemautomated.eu/)
 
-## Requirements
+## Standalone voter
+The standalone server can be used to perform simple voting for 1 account.
 
-Steem-python is required
-https://github.com/steemit/steem-python
+## Server voter
+The server voter is the backend application used to perform all voting being done at [SteemAutomated](https://steemautomated.eu/). The website offers a easy to user interface for users to interact with, add and update their voting rules. User authentication is done by Steemconnect.
 
-With pip:
+## Roadmap
+In the next update trailing of other STEEM accounts will be enabled.
 
-```
-pip3 install steem      # pip install steem for 2.7
-```
+## Previous versions
 
-From Source:
-
-```
-git clone https://github.com/steemit/steem-python.git
-cd steem-python
-python3 setup.py install        # python setup.py install for 2.7
-```
-
-## Installation
-
-From source:
-
-```
-git clone https://github.com/Juless89/fully-automated-steemvoter
-```
-
-
-
-## Usage
-
-Requires 3 arguments:
-- account to be used for voting
-- block number to start or head to use current head block
-- upvote age for posts in minutes
-
-```
-python upvoter.py <account> <block_number|head> <upvote_age>
-
-example: python upvoter.py steempytutorials head 30
-```
-
-## Upvote list
-
-All accounts to be upvoted must be added in JSON format to upvote_list.json. Each account requires the account name, the weight of the votes and the limit of votes per day. Changes to the list are automatically updated once every hour so the bot does not have to be shut down.
-
-```
-"steempytutorials": {
-  "upvote_weight": 100,
-  "upvote_limit": 1
-}
-```
-
-## Road map
-
-- vote trailing
-- specific delay per user
-- downvoting
-- dynamic voting based on current voting power
-- batched upvoting
-- multiple accounts
-- following a hashtag + whitelist
-- leave configurable comments
+- 0.0.2 Added the front-end website and Steemconnect user authentication
+- 0.0.1 Initial commit, release of the standalone voter code
