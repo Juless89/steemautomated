@@ -35,7 +35,7 @@ class Upvotebot():
         self.hour = None
         self.timestamp = None
 
-        self.db = database_debug.Database()
+        self.db = database.Database()
 
     # Voting is done via Steemconnect with the steemconnect plugin from
     # @emre: https://github.com/emre/steemconnect-python-client
